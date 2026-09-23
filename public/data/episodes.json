@@ -1,0 +1,5162 @@
+[
+  {
+    "season_number": 1,
+    "season_id": 3,
+    "season_name": "001 - Arc de Romance Dawn",
+    "episode_in_season": 1,
+    "episode_absolute": 1,
+    "episode_id": 184,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-1/op_cat-001.mp4",
+    "filename": "001 - Arc de Romance Dawn_EP001_0001.mp4"
+  },
+  {
+    "season_number": 1,
+    "season_id": 3,
+    "season_name": "001 - Arc de Romance Dawn",
+    "episode_in_season": 2,
+    "episode_absolute": 2,
+    "episode_id": 185,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-1/op_cat-002.mp4",
+    "filename": "001 - Arc de Romance Dawn_EP002_0002.mp4"
+  },
+  {
+    "season_number": 1,
+    "season_id": 3,
+    "season_name": "001 - Arc de Romance Dawn",
+    "episode_in_season": 3,
+    "episode_absolute": 3,
+    "episode_id": 186,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-1/op_cat-003.mp4",
+    "filename": "001 - Arc de Romance Dawn_EP003_0003.mp4"
+  },
+  {
+    "season_number": 2,
+    "season_id": 23,
+    "season_name": "002 - Arc del Pallasso Buggy",
+    "episode_in_season": 1,
+    "episode_absolute": 4,
+    "episode_id": 187,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-2/op_cat-004.mp4",
+    "filename": "002 - Arc del Pallasso Buggy_EP001_0004.mp4"
+  },
+  {
+    "season_number": 2,
+    "season_id": 23,
+    "season_name": "002 - Arc del Pallasso Buggy",
+    "episode_in_season": 2,
+    "episode_absolute": 5,
+    "episode_id": 188,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-2/op_cat-005.mp4",
+    "filename": "002 - Arc del Pallasso Buggy_EP002_0005.mp4"
+  },
+  {
+    "season_number": 2,
+    "season_id": 23,
+    "season_name": "002 - Arc del Pallasso Buggy",
+    "episode_in_season": 3,
+    "episode_absolute": 6,
+    "episode_id": 189,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-2/op_cat-006.mp4",
+    "filename": "002 - Arc del Pallasso Buggy_EP003_0006.mp4"
+  },
+  {
+    "season_number": 2,
+    "season_id": 23,
+    "season_name": "002 - Arc del Pallasso Buggy",
+    "episode_in_season": 4,
+    "episode_absolute": 7,
+    "episode_id": 190,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-2/op_cat-007.mp4",
+    "filename": "002 - Arc del Pallasso Buggy_EP004_0007.mp4"
+  },
+  {
+    "season_number": 2,
+    "season_id": 23,
+    "season_name": "002 - Arc del Pallasso Buggy",
+    "episode_in_season": 5,
+    "episode_absolute": 8,
+    "episode_id": 191,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-2/op_cat-008.mp4",
+    "filename": "002 - Arc del Pallasso Buggy_EP005_0008.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 1,
+    "episode_absolute": 9,
+    "episode_id": 192,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-009.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP001_0009.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 2,
+    "episode_absolute": 10,
+    "episode_id": 193,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-010.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP002_0010.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 3,
+    "episode_absolute": 11,
+    "episode_id": 194,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-011.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP003_0011.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 4,
+    "episode_absolute": 12,
+    "episode_id": 195,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-012.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP004_0012.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 5,
+    "episode_absolute": 13,
+    "episode_id": 196,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-013.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP005_0013.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 6,
+    "episode_absolute": 14,
+    "episode_id": 197,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-014.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP006_0014.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 7,
+    "episode_absolute": 15,
+    "episode_id": 198,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-015.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP007_0015.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 8,
+    "episode_absolute": 16,
+    "episode_id": 199,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-016.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP008_0016.mp4"
+  },
+  {
+    "season_number": 3,
+    "season_id": 27,
+    "season_name": "003 - Arc del Capità Kuro",
+    "episode_in_season": 9,
+    "episode_absolute": 17,
+    "episode_id": 200,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-3/op_cat-017.mp4",
+    "filename": "003 - Arc del Capità Kuro_EP009_0017.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 1,
+    "episode_absolute": 18,
+    "episode_id": 201,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-018.mp4",
+    "filename": "004 - Arc del Baratie_EP001_0018.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 2,
+    "episode_absolute": 19,
+    "episode_id": 202,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-019.mp4",
+    "filename": "004 - Arc del Baratie_EP002_0019.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 3,
+    "episode_absolute": 20,
+    "episode_id": 203,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-020.mp4",
+    "filename": "004 - Arc del Baratie_EP003_0020.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 4,
+    "episode_absolute": 21,
+    "episode_id": 204,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-021.mp4",
+    "filename": "004 - Arc del Baratie_EP004_0021.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 5,
+    "episode_absolute": 22,
+    "episode_id": 205,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-022.mp4",
+    "filename": "004 - Arc del Baratie_EP005_0022.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 6,
+    "episode_absolute": 23,
+    "episode_id": 206,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-023.mp4",
+    "filename": "004 - Arc del Baratie_EP006_0023.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 7,
+    "episode_absolute": 24,
+    "episode_id": 207,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-024.mp4",
+    "filename": "004 - Arc del Baratie_EP007_0024.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 8,
+    "episode_absolute": 25,
+    "episode_id": 208,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-025.mp4",
+    "filename": "004 - Arc del Baratie_EP008_0025.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 9,
+    "episode_absolute": 26,
+    "episode_id": 209,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-026.mp4",
+    "filename": "004 - Arc del Baratie_EP009_0026.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 10,
+    "episode_absolute": 27,
+    "episode_id": 210,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-027.mp4",
+    "filename": "004 - Arc del Baratie_EP010_0027.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 11,
+    "episode_absolute": 28,
+    "episode_id": 211,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-028.mp4",
+    "filename": "004 - Arc del Baratie_EP011_0028.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 12,
+    "episode_absolute": 29,
+    "episode_id": 212,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-029.mp4",
+    "filename": "004 - Arc del Baratie_EP012_0029.mp4"
+  },
+  {
+    "season_number": 4,
+    "season_id": 29,
+    "season_name": "004 - Arc del Baratie",
+    "episode_in_season": 13,
+    "episode_absolute": 30,
+    "episode_id": 213,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-4/op_cat-030.mp4",
+    "filename": "004 - Arc del Baratie_EP013_0030.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 1,
+    "episode_absolute": 31,
+    "episode_id": 214,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-031.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP001_0031.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 2,
+    "episode_absolute": 32,
+    "episode_id": 215,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-032.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP002_0032.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 3,
+    "episode_absolute": 33,
+    "episode_id": 216,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-033.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP003_0033.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 4,
+    "episode_absolute": 34,
+    "episode_id": 217,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-034.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP004_0034.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 5,
+    "episode_absolute": 35,
+    "episode_id": 218,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-035.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP005_0035.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 6,
+    "episode_absolute": 36,
+    "episode_id": 219,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-036.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP006_0036.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 7,
+    "episode_absolute": 37,
+    "episode_id": 220,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-037.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP007_0037.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 8,
+    "episode_absolute": 38,
+    "episode_id": 221,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-038.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP008_0038.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 9,
+    "episode_absolute": 39,
+    "episode_id": 222,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-039.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP009_0039.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 10,
+    "episode_absolute": 40,
+    "episode_id": 223,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-040.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP010_0040.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 11,
+    "episode_absolute": 41,
+    "episode_id": 224,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-041.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP011_0041.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 12,
+    "episode_absolute": 42,
+    "episode_id": 225,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-042.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP012_0042.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 13,
+    "episode_absolute": 43,
+    "episode_id": 226,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-043.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP013_0043.mp4"
+  },
+  {
+    "season_number": 5,
+    "season_id": 30,
+    "season_name": "005 - Arc d'Arlong Park",
+    "episode_in_season": 14,
+    "episode_absolute": 44,
+    "episode_id": 227,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-5/op_cat-044.mp4",
+    "filename": "005 - Arc d'Arlong Park_EP014_0044.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 1,
+    "episode_absolute": 45,
+    "episode_id": 228,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-6/op_cat-045.mp4",
+    "filename": "006 - Arc de Loguetown_EP001_0045.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 2,
+    "episode_absolute": 46,
+    "episode_id": 229,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-6/op_cat-046.mp4",
+    "filename": "006 - Arc de Loguetown_EP002_0046.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 3,
+    "episode_absolute": 47,
+    "episode_id": 230,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-6/op_cat-047.mp4",
+    "filename": "006 - Arc de Loguetown_EP003_0047.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 4,
+    "episode_absolute": 48,
+    "episode_id": 231,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-7/op_cat-048.mp4",
+    "filename": "006 - Arc de Loguetown_EP004_0048.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 5,
+    "episode_absolute": 49,
+    "episode_id": 232,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-7/op_cat-049.mp4",
+    "filename": "006 - Arc de Loguetown_EP005_0049.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 6,
+    "episode_absolute": 50,
+    "episode_id": 233,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-7/op_cat-050.mp4",
+    "filename": "006 - Arc de Loguetown_EP006_0050.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 7,
+    "episode_absolute": 51,
+    "episode_id": 234,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-7/op_cat-051.mp4",
+    "filename": "006 - Arc de Loguetown_EP007_0051.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 8,
+    "episode_absolute": 52,
+    "episode_id": 235,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-7/op_cat-052.mp4",
+    "filename": "006 - Arc de Loguetown_EP008_0052.mp4"
+  },
+  {
+    "season_number": 6,
+    "season_id": 31,
+    "season_name": "006 - Arc de Loguetown",
+    "episode_in_season": 9,
+    "episode_absolute": 53,
+    "episode_id": 236,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-7/op_cat-053.mp4",
+    "filename": "006 - Arc de Loguetown_EP009_0053.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 1,
+    "episode_absolute": 54,
+    "episode_id": 237,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-054.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP001_0054.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 2,
+    "episode_absolute": 55,
+    "episode_id": 238,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-055.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP002_0055.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 3,
+    "episode_absolute": 56,
+    "episode_id": 239,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-056.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP003_0056.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 4,
+    "episode_absolute": 57,
+    "episode_id": 240,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-057.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP004_0057.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 5,
+    "episode_absolute": 58,
+    "episode_id": 241,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-058.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP005_0058.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 6,
+    "episode_absolute": 59,
+    "episode_id": 242,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-059.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP006_0059.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 7,
+    "episode_absolute": 60,
+    "episode_id": 243,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-060.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP007_0060.mp4"
+  },
+  {
+    "season_number": 7,
+    "season_id": 32,
+    "season_name": "007 - Arc de l'Illa Creuer",
+    "episode_in_season": 8,
+    "episode_absolute": 61,
+    "episode_id": 244,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-8/op_cat-061.mp4",
+    "filename": "007 - Arc de l'Illa Creuer_EP008_0061.mp4"
+  },
+  {
+    "season_number": 8,
+    "season_id": 33,
+    "season_name": "008 - Arc del Mont Invertit",
+    "episode_in_season": 1,
+    "episode_absolute": 62,
+    "episode_id": 245,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-9/op_cat-062.mp4",
+    "filename": "008 - Arc del Mont Invertit_EP001_0062.mp4"
+  },
+  {
+    "season_number": 8,
+    "season_id": 33,
+    "season_name": "008 - Arc del Mont Invertit",
+    "episode_in_season": 2,
+    "episode_absolute": 63,
+    "episode_id": 246,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-9/op_cat-063.mp4",
+    "filename": "008 - Arc del Mont Invertit_EP002_0063.mp4"
+  },
+  {
+    "season_number": 9,
+    "season_id": 34,
+    "season_name": "009 - Arc de Whisky Peak",
+    "episode_in_season": 1,
+    "episode_absolute": 64,
+    "episode_id": 247,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-9/op_cat-064.mp4",
+    "filename": "009 - Arc de Whisky Peak_EP001_0064.mp4"
+  },
+  {
+    "season_number": 9,
+    "season_id": 34,
+    "season_name": "009 - Arc de Whisky Peak",
+    "episode_in_season": 2,
+    "episode_absolute": 65,
+    "episode_id": 248,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-9/op_cat-065.mp4",
+    "filename": "009 - Arc de Whisky Peak_EP002_0065.mp4"
+  },
+  {
+    "season_number": 9,
+    "season_id": 34,
+    "season_name": "009 - Arc de Whisky Peak",
+    "episode_in_season": 3,
+    "episode_absolute": 66,
+    "episode_id": 249,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-9/op_cat-066.mp4",
+    "filename": "009 - Arc de Whisky Peak_EP003_0066.mp4"
+  },
+  {
+    "season_number": 9,
+    "season_id": 34,
+    "season_name": "009 - Arc de Whisky Peak",
+    "episode_in_season": 4,
+    "episode_absolute": 67,
+    "episode_id": 250,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-9/op_cat-067.mp4",
+    "filename": "009 - Arc de Whisky Peak_EP004_0067.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 1,
+    "episode_absolute": 68,
+    "episode_id": 251,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-10/op_cat-068.mp4",
+    "filename": "010 - Arc de Little Garden_EP001_0068.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 2,
+    "episode_absolute": 69,
+    "episode_id": 252,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-10/op_cat-069.mp4",
+    "filename": "010 - Arc de Little Garden_EP002_0069.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 3,
+    "episode_absolute": 70,
+    "episode_id": 253,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-070.mp4",
+    "filename": "010 - Arc de Little Garden_EP003_0070.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 4,
+    "episode_absolute": 71,
+    "episode_id": 254,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-071.mp4",
+    "filename": "010 - Arc de Little Garden_EP004_0071.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 5,
+    "episode_absolute": 72,
+    "episode_id": 255,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-072.mp4",
+    "filename": "010 - Arc de Little Garden_EP005_0072.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 6,
+    "episode_absolute": 73,
+    "episode_id": 256,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-073.mp4",
+    "filename": "010 - Arc de Little Garden_EP006_0073.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 7,
+    "episode_absolute": 74,
+    "episode_id": 257,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-074.mp4",
+    "filename": "010 - Arc de Little Garden_EP007_0074.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 8,
+    "episode_absolute": 75,
+    "episode_id": 258,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-075.mp4",
+    "filename": "010 - Arc de Little Garden_EP008_0075.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 9,
+    "episode_absolute": 76,
+    "episode_id": 259,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-076.mp4",
+    "filename": "010 - Arc de Little Garden_EP009_0076.mp4"
+  },
+  {
+    "season_number": 10,
+    "season_id": 35,
+    "season_name": "010 - Arc de Little Garden",
+    "episode_in_season": 10,
+    "episode_absolute": 77,
+    "episode_id": 260,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-11/op_cat-077.mp4",
+    "filename": "010 - Arc de Little Garden_EP010_0077.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 1,
+    "episode_absolute": 78,
+    "episode_id": 261,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-078.mp4",
+    "filename": "011 - Arc de Drum_EP001_0078.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 2,
+    "episode_absolute": 79,
+    "episode_id": 262,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-079.mp4",
+    "filename": "011 - Arc de Drum_EP002_0079.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 3,
+    "episode_absolute": 80,
+    "episode_id": 263,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-080.mp4",
+    "filename": "011 - Arc de Drum_EP003_0080.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 4,
+    "episode_absolute": 81,
+    "episode_id": 264,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-081.mp4",
+    "filename": "011 - Arc de Drum_EP004_0081.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 5,
+    "episode_absolute": 82,
+    "episode_id": 265,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-082.mp4",
+    "filename": "011 - Arc de Drum_EP005_0082.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 6,
+    "episode_absolute": 83,
+    "episode_id": 266,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-083.mp4",
+    "filename": "011 - Arc de Drum_EP006_0083.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 7,
+    "episode_absolute": 84,
+    "episode_id": 267,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-084.mp4",
+    "filename": "011 - Arc de Drum_EP007_0084.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 8,
+    "episode_absolute": 85,
+    "episode_id": 268,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-085.mp4",
+    "filename": "011 - Arc de Drum_EP008_0085.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 9,
+    "episode_absolute": 86,
+    "episode_id": 269,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-086.mp4",
+    "filename": "011 - Arc de Drum_EP009_0086.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 10,
+    "episode_absolute": 87,
+    "episode_id": 270,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-087.mp4",
+    "filename": "011 - Arc de Drum_EP010_0087.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 11,
+    "episode_absolute": 88,
+    "episode_id": 271,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-088.mp4",
+    "filename": "011 - Arc de Drum_EP011_0088.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 12,
+    "episode_absolute": 89,
+    "episode_id": 272,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-089.mp4",
+    "filename": "011 - Arc de Drum_EP012_0089.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 13,
+    "episode_absolute": 90,
+    "episode_id": 273,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-090.mp4",
+    "filename": "011 - Arc de Drum_EP013_0090.mp4"
+  },
+  {
+    "season_number": 11,
+    "season_id": 36,
+    "season_name": "011 - Arc de Drum",
+    "episode_in_season": 14,
+    "episode_absolute": 91,
+    "episode_id": 274,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-12/op_cat-091.mp4",
+    "filename": "011 - Arc de Drum_EP014_0091.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 1,
+    "episode_absolute": 92,
+    "episode_id": 275,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-092.mp4",
+    "filename": "012 - Arc d'Alabasta_EP001_0092.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 2,
+    "episode_absolute": 93,
+    "episode_id": 276,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-093.mp4",
+    "filename": "012 - Arc d'Alabasta_EP002_0093.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 3,
+    "episode_absolute": 94,
+    "episode_id": 277,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-094.mp4",
+    "filename": "012 - Arc d'Alabasta_EP003_0094.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 4,
+    "episode_absolute": 95,
+    "episode_id": 278,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-095.mp4",
+    "filename": "012 - Arc d'Alabasta_EP004_0095.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 5,
+    "episode_absolute": 96,
+    "episode_id": 279,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-096.mp4",
+    "filename": "012 - Arc d'Alabasta_EP005_0096.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 6,
+    "episode_absolute": 97,
+    "episode_id": 280,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-097.mp4",
+    "filename": "012 - Arc d'Alabasta_EP006_0097.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 7,
+    "episode_absolute": 98,
+    "episode_id": 281,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-098.mp4",
+    "filename": "012 - Arc d'Alabasta_EP007_0098.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 8,
+    "episode_absolute": 99,
+    "episode_id": 282,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-099.mp4",
+    "filename": "012 - Arc d'Alabasta_EP008_0099.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 9,
+    "episode_absolute": 100,
+    "episode_id": 283,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-100.mp4",
+    "filename": "012 - Arc d'Alabasta_EP009_0100.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 10,
+    "episode_absolute": 101,
+    "episode_id": 284,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-101.mp4",
+    "filename": "012 - Arc d'Alabasta_EP010_0101.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 11,
+    "episode_absolute": 102,
+    "episode_id": 285,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-102.mp4",
+    "filename": "012 - Arc d'Alabasta_EP011_0102.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 12,
+    "episode_absolute": 103,
+    "episode_id": 286,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-103.mp4",
+    "filename": "012 - Arc d'Alabasta_EP012_0103.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 13,
+    "episode_absolute": 104,
+    "episode_id": 287,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-104.mp4",
+    "filename": "012 - Arc d'Alabasta_EP013_0104.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 14,
+    "episode_absolute": 105,
+    "episode_id": 288,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-105.mp4",
+    "filename": "012 - Arc d'Alabasta_EP014_0105.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 15,
+    "episode_absolute": 106,
+    "episode_id": 289,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-106.mp4",
+    "filename": "012 - Arc d'Alabasta_EP015_0106.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 16,
+    "episode_absolute": 107,
+    "episode_id": 290,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-107.mp4",
+    "filename": "012 - Arc d'Alabasta_EP016_0107.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 17,
+    "episode_absolute": 108,
+    "episode_id": 291,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-108.mp4",
+    "filename": "012 - Arc d'Alabasta_EP017_0108.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 18,
+    "episode_absolute": 109,
+    "episode_id": 292,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-109.mp4",
+    "filename": "012 - Arc d'Alabasta_EP018_0109.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 19,
+    "episode_absolute": 110,
+    "episode_id": 293,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-110.mp4",
+    "filename": "012 - Arc d'Alabasta_EP019_0110.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 20,
+    "episode_absolute": 111,
+    "episode_id": 294,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-111.mp4",
+    "filename": "012 - Arc d'Alabasta_EP020_0111.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 21,
+    "episode_absolute": 112,
+    "episode_id": 295,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-112.mp4",
+    "filename": "012 - Arc d'Alabasta_EP021_0112.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 22,
+    "episode_absolute": 113,
+    "episode_id": 296,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-113.mp4",
+    "filename": "012 - Arc d'Alabasta_EP022_0113.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 23,
+    "episode_absolute": 114,
+    "episode_id": 297,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-114.mp4",
+    "filename": "012 - Arc d'Alabasta_EP023_0114.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 24,
+    "episode_absolute": 115,
+    "episode_id": 298,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-115.mp4",
+    "filename": "012 - Arc d'Alabasta_EP024_0115.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 25,
+    "episode_absolute": 116,
+    "episode_id": 299,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-116.mp4",
+    "filename": "012 - Arc d'Alabasta_EP025_0116.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 26,
+    "episode_absolute": 117,
+    "episode_id": 300,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-117.mp4",
+    "filename": "012 - Arc d'Alabasta_EP026_0117.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 27,
+    "episode_absolute": 118,
+    "episode_id": 301,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-118.mp4",
+    "filename": "012 - Arc d'Alabasta_EP027_0118.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 28,
+    "episode_absolute": 119,
+    "episode_id": 302,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-119.mp4",
+    "filename": "012 - Arc d'Alabasta_EP028_0119.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 29,
+    "episode_absolute": 120,
+    "episode_id": 303,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-120.mp4",
+    "filename": "012 - Arc d'Alabasta_EP029_0120.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 30,
+    "episode_absolute": 121,
+    "episode_id": 304,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-121.mp4",
+    "filename": "012 - Arc d'Alabasta_EP030_0121.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 31,
+    "episode_absolute": 122,
+    "episode_id": 305,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-122.mp4",
+    "filename": "012 - Arc d'Alabasta_EP031_0122.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 32,
+    "episode_absolute": 123,
+    "episode_id": 306,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-123.mp4",
+    "filename": "012 - Arc d'Alabasta_EP032_0123.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 33,
+    "episode_absolute": 124,
+    "episode_id": 307,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-124.mp4",
+    "filename": "012 - Arc d'Alabasta_EP033_0124.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 34,
+    "episode_absolute": 125,
+    "episode_id": 308,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-125.mp4",
+    "filename": "012 - Arc d'Alabasta_EP034_0125.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 35,
+    "episode_absolute": 126,
+    "episode_id": 309,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-126.mp4",
+    "filename": "012 - Arc d'Alabasta_EP035_0126.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 36,
+    "episode_absolute": 127,
+    "episode_id": 310,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-127.mp4",
+    "filename": "012 - Arc d'Alabasta_EP036_0127.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 37,
+    "episode_absolute": 128,
+    "episode_id": 311,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-128.mp4",
+    "filename": "012 - Arc d'Alabasta_EP037_0128.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 38,
+    "episode_absolute": 129,
+    "episode_id": 312,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-129.mp4",
+    "filename": "012 - Arc d'Alabasta_EP038_0129.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 39,
+    "episode_absolute": 130,
+    "episode_id": 313,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-13/op_cat-130.mp4",
+    "filename": "012 - Arc d'Alabasta_EP039_0130.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 40,
+    "episode_absolute": 131,
+    "episode_id": 314,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-14/op_cat-131.mp4",
+    "filename": "012 - Arc d'Alabasta_EP040_0131.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 41,
+    "episode_absolute": 132,
+    "episode_id": 315,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-14/op_cat-132.mp4",
+    "filename": "012 - Arc d'Alabasta_EP041_0132.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 42,
+    "episode_absolute": 133,
+    "episode_id": 316,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-14/op_cat-133.mp4",
+    "filename": "012 - Arc d'Alabasta_EP042_0133.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 43,
+    "episode_absolute": 134,
+    "episode_id": 317,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-14/op_cat-134.mp4",
+    "filename": "012 - Arc d'Alabasta_EP043_0134.mp4"
+  },
+  {
+    "season_number": 12,
+    "season_id": 37,
+    "season_name": "012 - Arc d'Alabasta",
+    "episode_in_season": 44,
+    "episode_absolute": 135,
+    "episode_id": 318,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-14/op_cat-135.mp4",
+    "filename": "012 - Arc d'Alabasta_EP044_0135.mp4"
+  },
+  {
+    "season_number": 13,
+    "season_id": 38,
+    "season_name": "013 - Arc d'en Zenny",
+    "episode_in_season": 1,
+    "episode_absolute": 136,
+    "episode_id": 319,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-15/op_cat-136.mp4",
+    "filename": "013 - Arc d'en Zenny_EP001_0136.mp4"
+  },
+  {
+    "season_number": 13,
+    "season_id": 38,
+    "season_name": "013 - Arc d'en Zenny",
+    "episode_in_season": 2,
+    "episode_absolute": 137,
+    "episode_id": 320,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-15/op_cat-137.mp4",
+    "filename": "013 - Arc d'en Zenny_EP002_0137.mp4"
+  },
+  {
+    "season_number": 13,
+    "season_id": 38,
+    "season_name": "013 - Arc d'en Zenny",
+    "episode_in_season": 3,
+    "episode_absolute": 138,
+    "episode_id": 321,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-15/op_cat-138.mp4",
+    "filename": "013 - Arc d'en Zenny_EP003_0138.mp4"
+  },
+  {
+    "season_number": 14,
+    "season_id": 39,
+    "season_name": "014 - Arc de la Boira de Sant Martí",
+    "episode_in_season": 1,
+    "episode_absolute": 139,
+    "episode_id": 322,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-16/op_cat-139.mp4",
+    "filename": "014 - Arc de la Boira de Sant Martí_EP001_0139.mp4"
+  },
+  {
+    "season_number": 14,
+    "season_id": 39,
+    "season_name": "014 - Arc de la Boira de Sant Martí",
+    "episode_in_season": 2,
+    "episode_absolute": 140,
+    "episode_id": 323,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-16/op_cat-140.mp4",
+    "filename": "014 - Arc de la Boira de Sant Martí_EP002_0140.mp4"
+  },
+  {
+    "season_number": 14,
+    "season_id": 39,
+    "season_name": "014 - Arc de la Boira de Sant Martí",
+    "episode_in_season": 3,
+    "episode_absolute": 141,
+    "episode_id": 324,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-16/op_cat-141.mp4",
+    "filename": "014 - Arc de la Boira de Sant Martí_EP003_0141.mp4"
+  },
+  {
+    "season_number": 14,
+    "season_id": 39,
+    "season_name": "014 - Arc de la Boira de Sant Martí",
+    "episode_in_season": 4,
+    "episode_absolute": 142,
+    "episode_id": 325,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-16/op_cat-142.mp4",
+    "filename": "014 - Arc de la Boira de Sant Martí_EP004_0142.mp4"
+  },
+  {
+    "season_number": 14,
+    "season_id": 39,
+    "season_name": "014 - Arc de la Boira de Sant Martí",
+    "episode_in_season": 5,
+    "episode_absolute": 143,
+    "episode_id": 326,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-16/op_cat-143.mp4",
+    "filename": "014 - Arc de la Boira de Sant Martí_EP005_0143.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 1,
+    "episode_absolute": 144,
+    "episode_id": 327,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-144.mp4",
+    "filename": "015 - Arc de Jaya_EP001_0144.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 2,
+    "episode_absolute": 145,
+    "episode_id": 328,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-145.mp4",
+    "filename": "015 - Arc de Jaya_EP002_0145.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 3,
+    "episode_absolute": 146,
+    "episode_id": 329,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-146.mp4",
+    "filename": "015 - Arc de Jaya_EP003_0146.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 4,
+    "episode_absolute": 147,
+    "episode_id": 330,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-147.mp4",
+    "filename": "015 - Arc de Jaya_EP004_0147.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 5,
+    "episode_absolute": 148,
+    "episode_id": 331,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-148.mp4",
+    "filename": "015 - Arc de Jaya_EP005_0148.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 6,
+    "episode_absolute": 149,
+    "episode_id": 332,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-149.mp4",
+    "filename": "015 - Arc de Jaya_EP006_0149.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 7,
+    "episode_absolute": 150,
+    "episode_id": 333,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-150.mp4",
+    "filename": "015 - Arc de Jaya_EP007_0150.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 8,
+    "episode_absolute": 151,
+    "episode_id": 334,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-151.mp4",
+    "filename": "015 - Arc de Jaya_EP008_0151.mp4"
+  },
+  {
+    "season_number": 15,
+    "season_id": 40,
+    "season_name": "015 - Arc de Jaya",
+    "episode_in_season": 9,
+    "episode_absolute": 152,
+    "episode_id": 335,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-17/op_cat-152.mp4",
+    "filename": "015 - Arc de Jaya_EP009_0152.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 1,
+    "episode_absolute": 153,
+    "episode_id": 336,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-153.mp4",
+    "filename": "016 - Arc de Skypiea_EP001_0153.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 2,
+    "episode_absolute": 154,
+    "episode_id": 337,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-154.mp4",
+    "filename": "016 - Arc de Skypiea_EP002_0154.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 3,
+    "episode_absolute": 155,
+    "episode_id": 338,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-155.mp4",
+    "filename": "016 - Arc de Skypiea_EP003_0155.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 4,
+    "episode_absolute": 156,
+    "episode_id": 339,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-156.mp4",
+    "filename": "016 - Arc de Skypiea_EP004_0156.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 5,
+    "episode_absolute": 157,
+    "episode_id": 340,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-157.mp4",
+    "filename": "016 - Arc de Skypiea_EP005_0157.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 6,
+    "episode_absolute": 158,
+    "episode_id": 341,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-158.mp4",
+    "filename": "016 - Arc de Skypiea_EP006_0158.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 7,
+    "episode_absolute": 159,
+    "episode_id": 342,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-159.mp4",
+    "filename": "016 - Arc de Skypiea_EP007_0159.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 8,
+    "episode_absolute": 160,
+    "episode_id": 343,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-160.mp4",
+    "filename": "016 - Arc de Skypiea_EP008_0160.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 9,
+    "episode_absolute": 161,
+    "episode_id": 344,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-161.mp4",
+    "filename": "016 - Arc de Skypiea_EP009_0161.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 10,
+    "episode_absolute": 162,
+    "episode_id": 345,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-162.mp4",
+    "filename": "016 - Arc de Skypiea_EP010_0162.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 11,
+    "episode_absolute": 163,
+    "episode_id": 346,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-163.mp4",
+    "filename": "016 - Arc de Skypiea_EP011_0163.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 12,
+    "episode_absolute": 164,
+    "episode_id": 347,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-164.mp4",
+    "filename": "016 - Arc de Skypiea_EP012_0164.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 13,
+    "episode_absolute": 165,
+    "episode_id": 348,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-165.mp4",
+    "filename": "016 - Arc de Skypiea_EP013_0165.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 14,
+    "episode_absolute": 166,
+    "episode_id": 349,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-166.mp4",
+    "filename": "016 - Arc de Skypiea_EP014_0166.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 15,
+    "episode_absolute": 167,
+    "episode_id": 350,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-167.mp4",
+    "filename": "016 - Arc de Skypiea_EP015_0167.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 16,
+    "episode_absolute": 168,
+    "episode_id": 351,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-168.mp4",
+    "filename": "016 - Arc de Skypiea_EP016_0168.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 17,
+    "episode_absolute": 169,
+    "episode_id": 352,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-169.mp4",
+    "filename": "016 - Arc de Skypiea_EP017_0169.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 18,
+    "episode_absolute": 170,
+    "episode_id": 353,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-170.mp4",
+    "filename": "016 - Arc de Skypiea_EP018_0170.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 19,
+    "episode_absolute": 171,
+    "episode_id": 354,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-171.mp4",
+    "filename": "016 - Arc de Skypiea_EP019_0171.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 20,
+    "episode_absolute": 172,
+    "episode_id": 355,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-172.mp4",
+    "filename": "016 - Arc de Skypiea_EP020_0172.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 21,
+    "episode_absolute": 173,
+    "episode_id": 356,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-173.mp4",
+    "filename": "016 - Arc de Skypiea_EP021_0173.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 22,
+    "episode_absolute": 174,
+    "episode_id": 357,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-174.mp4",
+    "filename": "016 - Arc de Skypiea_EP022_0174.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 23,
+    "episode_absolute": 175,
+    "episode_id": 358,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-175.mp4",
+    "filename": "016 - Arc de Skypiea_EP023_0175.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 24,
+    "episode_absolute": 176,
+    "episode_id": 359,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-176.mp4",
+    "filename": "016 - Arc de Skypiea_EP024_0176.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 25,
+    "episode_absolute": 177,
+    "episode_id": 360,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-177.mp4",
+    "filename": "016 - Arc de Skypiea_EP025_0177.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 26,
+    "episode_absolute": 178,
+    "episode_id": 361,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-178.mp4",
+    "filename": "016 - Arc de Skypiea_EP026_0178.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 27,
+    "episode_absolute": 179,
+    "episode_id": 362,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-179.mp4",
+    "filename": "016 - Arc de Skypiea_EP027_0179.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 28,
+    "episode_absolute": 180,
+    "episode_id": 363,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-180.mp4",
+    "filename": "016 - Arc de Skypiea_EP028_0180.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 29,
+    "episode_absolute": 181,
+    "episode_id": 364,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-181.mp4",
+    "filename": "016 - Arc de Skypiea_EP029_0181.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 30,
+    "episode_absolute": 182,
+    "episode_id": 365,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-182.mp4",
+    "filename": "016 - Arc de Skypiea_EP030_0182.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 31,
+    "episode_absolute": 183,
+    "episode_id": 366,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-183.mp4",
+    "filename": "016 - Arc de Skypiea_EP031_0183.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 32,
+    "episode_absolute": 184,
+    "episode_id": 367,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-184.mp4",
+    "filename": "016 - Arc de Skypiea_EP032_0184.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 33,
+    "episode_absolute": 185,
+    "episode_id": 368,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-185.mp4",
+    "filename": "016 - Arc de Skypiea_EP033_0185.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 34,
+    "episode_absolute": 186,
+    "episode_id": 369,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-186.mp4",
+    "filename": "016 - Arc de Skypiea_EP034_0186.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 35,
+    "episode_absolute": 187,
+    "episode_id": 370,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-187.mp4",
+    "filename": "016 - Arc de Skypiea_EP035_0187.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 36,
+    "episode_absolute": 188,
+    "episode_id": 371,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-188.mp4",
+    "filename": "016 - Arc de Skypiea_EP036_0188.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 37,
+    "episode_absolute": 189,
+    "episode_id": 372,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-189.mp4",
+    "filename": "016 - Arc de Skypiea_EP037_0189.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 38,
+    "episode_absolute": 190,
+    "episode_id": 373,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-190.mp4",
+    "filename": "016 - Arc de Skypiea_EP038_0190.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 39,
+    "episode_absolute": 191,
+    "episode_id": 374,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-191.mp4",
+    "filename": "016 - Arc de Skypiea_EP039_0191.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 40,
+    "episode_absolute": 192,
+    "episode_id": 375,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-192.mp4",
+    "filename": "016 - Arc de Skypiea_EP040_0192.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 41,
+    "episode_absolute": 193,
+    "episode_id": 376,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-193.mp4",
+    "filename": "016 - Arc de Skypiea_EP041_0193.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 42,
+    "episode_absolute": 194,
+    "episode_id": 377,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-194.mp4",
+    "filename": "016 - Arc de Skypiea_EP042_0194.mp4"
+  },
+  {
+    "season_number": 16,
+    "season_id": 41,
+    "season_name": "016 - Arc de Skypiea",
+    "episode_in_season": 43,
+    "episode_absolute": 195,
+    "episode_id": 378,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-18/op_cat-195.mp4",
+    "filename": "016 - Arc de Skypiea_EP043_0195.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 1,
+    "episode_absolute": 196,
+    "episode_id": 379,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-196.mp4",
+    "filename": "017 - Arc del G8_EP001_0196.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 2,
+    "episode_absolute": 197,
+    "episode_id": 380,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-197.mp4",
+    "filename": "017 - Arc del G8_EP002_0197.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 3,
+    "episode_absolute": 198,
+    "episode_id": 381,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-198.mp4",
+    "filename": "017 - Arc del G8_EP003_0198.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 4,
+    "episode_absolute": 199,
+    "episode_id": 382,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-199.mp4",
+    "filename": "017 - Arc del G8_EP004_0199.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 5,
+    "episode_absolute": 200,
+    "episode_id": 383,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-200.mp4",
+    "filename": "017 - Arc del G8_EP005_0200.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 6,
+    "episode_absolute": 201,
+    "episode_id": 384,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-201.mp4",
+    "filename": "017 - Arc del G8_EP006_0201.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 7,
+    "episode_absolute": 202,
+    "episode_id": 385,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-202.mp4",
+    "filename": "017 - Arc del G8_EP007_0202.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 8,
+    "episode_absolute": 203,
+    "episode_id": 386,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-203.mp4",
+    "filename": "017 - Arc del G8_EP008_0203.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 9,
+    "episode_absolute": 204,
+    "episode_id": 387,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-204.mp4",
+    "filename": "017 - Arc del G8_EP009_0204.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 10,
+    "episode_absolute": 205,
+    "episode_id": 388,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-205.mp4",
+    "filename": "017 - Arc del G8_EP010_0205.mp4"
+  },
+  {
+    "season_number": 17,
+    "season_id": 42,
+    "season_name": "017 - Arc del G8",
+    "episode_in_season": 11,
+    "episode_absolute": 206,
+    "episode_id": 389,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-19/op_cat-206.mp4",
+    "filename": "017 - Arc del G8_EP011_0206.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 1,
+    "episode_absolute": 207,
+    "episode_id": 390,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-207.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP001_0207.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 2,
+    "episode_absolute": 208,
+    "episode_id": 391,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-208.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP002_0208.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 3,
+    "episode_absolute": 209,
+    "episode_id": 392,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-209.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP003_0209.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 4,
+    "episode_absolute": 210,
+    "episode_id": 393,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-210.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP004_0210.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 5,
+    "episode_absolute": 211,
+    "episode_id": 394,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-211.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP005_0211.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 6,
+    "episode_absolute": 212,
+    "episode_id": 395,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-212.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP006_0212.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 7,
+    "episode_absolute": 213,
+    "episode_id": 396,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-213.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP007_0213.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 8,
+    "episode_absolute": 214,
+    "episode_id": 397,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-214.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP008_0214.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 9,
+    "episode_absolute": 215,
+    "episode_id": 398,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-215.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP009_0215.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 10,
+    "episode_absolute": 216,
+    "episode_id": 399,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-216.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP010_0216.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 11,
+    "episode_absolute": 217,
+    "episode_id": 400,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-217.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP011_0217.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 12,
+    "episode_absolute": 218,
+    "episode_id": 401,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-218.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP012_0218.mp4"
+  },
+  {
+    "season_number": 18,
+    "season_id": 43,
+    "season_name": "018 - Arc de Long Ring Long Land",
+    "episode_in_season": 13,
+    "episode_absolute": 219,
+    "episode_id": 402,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-20/op_cat-219.mp4",
+    "filename": "018 - Arc de Long Ring Long Land_EP013_0219.mp4"
+  },
+  {
+    "season_number": 19,
+    "season_id": 44,
+    "season_name": "019 - Arc de la memòria robada",
+    "episode_in_season": 1,
+    "episode_absolute": 220,
+    "episode_id": 403,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-21/op_cat-220.mp4",
+    "filename": "019 - Arc de la memòria robada_EP001_0220.mp4"
+  },
+  {
+    "season_number": 19,
+    "season_id": 44,
+    "season_name": "019 - Arc de la memòria robada",
+    "episode_in_season": 2,
+    "episode_absolute": 221,
+    "episode_id": 404,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-21/op_cat-221.mp4",
+    "filename": "019 - Arc de la memòria robada_EP002_0221.mp4"
+  },
+  {
+    "season_number": 19,
+    "season_id": 44,
+    "season_name": "019 - Arc de la memòria robada",
+    "episode_in_season": 3,
+    "episode_absolute": 222,
+    "episode_id": 405,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-21/op_cat-222.mp4",
+    "filename": "019 - Arc de la memòria robada_EP003_0222.mp4"
+  },
+  {
+    "season_number": 19,
+    "season_id": 44,
+    "season_name": "019 - Arc de la memòria robada",
+    "episode_in_season": 4,
+    "episode_absolute": 223,
+    "episode_id": 406,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-21/op_cat-223.mp4",
+    "filename": "019 - Arc de la memòria robada_EP004_0223.mp4"
+  },
+  {
+    "season_number": 19,
+    "season_id": 44,
+    "season_name": "019 - Arc de la memòria robada",
+    "episode_in_season": 5,
+    "episode_absolute": 224,
+    "episode_id": 407,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-21/op_cat-224.mp4",
+    "filename": "019 - Arc de la memòria robada_EP005_0224.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 1,
+    "episode_absolute": 225,
+    "episode_id": 408,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-22/op_cat-225.mp4",
+    "filename": "020 - Arc de Water 7_EP001_0225.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 2,
+    "episode_absolute": 226,
+    "episode_id": 409,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-22/op_cat-226.mp4",
+    "filename": "020 - Arc de Water 7_EP002_0226.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 3,
+    "episode_absolute": 227,
+    "episode_id": 410,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-22/op_cat-227.mp4",
+    "filename": "020 - Arc de Water 7_EP003_0227.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 4,
+    "episode_absolute": 228,
+    "episode_id": 411,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-22/op_cat-228.mp4",
+    "filename": "020 - Arc de Water 7_EP004_0228.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 5,
+    "episode_absolute": 229,
+    "episode_id": 412,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-229.mp4",
+    "filename": "020 - Arc de Water 7_EP005_0229.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 6,
+    "episode_absolute": 230,
+    "episode_id": 413,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-230.mp4",
+    "filename": "020 - Arc de Water 7_EP006_0230.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 7,
+    "episode_absolute": 231,
+    "episode_id": 414,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-231.mp4",
+    "filename": "020 - Arc de Water 7_EP007_0231.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 8,
+    "episode_absolute": 232,
+    "episode_id": 415,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-232.mp4",
+    "filename": "020 - Arc de Water 7_EP008_0232.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 9,
+    "episode_absolute": 233,
+    "episode_id": 416,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-233.mp4",
+    "filename": "020 - Arc de Water 7_EP009_0233.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 10,
+    "episode_absolute": 234,
+    "episode_id": 417,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-234.mp4",
+    "filename": "020 - Arc de Water 7_EP010_0234.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 11,
+    "episode_absolute": 235,
+    "episode_id": 418,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-235.mp4",
+    "filename": "020 - Arc de Water 7_EP011_0235.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 12,
+    "episode_absolute": 236,
+    "episode_id": 419,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-236.mp4",
+    "filename": "020 - Arc de Water 7_EP012_0236.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 13,
+    "episode_absolute": 237,
+    "episode_id": 420,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-237.mp4",
+    "filename": "020 - Arc de Water 7_EP013_0237.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 14,
+    "episode_absolute": 238,
+    "episode_id": 421,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-238.mp4",
+    "filename": "020 - Arc de Water 7_EP014_0238.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 15,
+    "episode_absolute": 239,
+    "episode_id": 422,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-239.mp4",
+    "filename": "020 - Arc de Water 7_EP015_0239.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 16,
+    "episode_absolute": 240,
+    "episode_id": 423,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-240.mp4",
+    "filename": "020 - Arc de Water 7_EP016_0240.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 17,
+    "episode_absolute": 241,
+    "episode_id": 424,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-241.mp4",
+    "filename": "020 - Arc de Water 7_EP017_0241.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 18,
+    "episode_absolute": 242,
+    "episode_id": 425,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-242.mp4",
+    "filename": "020 - Arc de Water 7_EP018_0242.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 19,
+    "episode_absolute": 243,
+    "episode_id": 426,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-243.mp4",
+    "filename": "020 - Arc de Water 7_EP019_0243.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 20,
+    "episode_absolute": 244,
+    "episode_id": 427,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-244.mp4",
+    "filename": "020 - Arc de Water 7_EP020_0244.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 21,
+    "episode_absolute": 245,
+    "episode_id": 428,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-245.mp4",
+    "filename": "020 - Arc de Water 7_EP021_0245.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 22,
+    "episode_absolute": 246,
+    "episode_id": 429,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-246.mp4",
+    "filename": "020 - Arc de Water 7_EP022_0246.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 23,
+    "episode_absolute": 247,
+    "episode_id": 430,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-247.mp4",
+    "filename": "020 - Arc de Water 7_EP023_0247.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 24,
+    "episode_absolute": 248,
+    "episode_id": 431,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-248.mp4",
+    "filename": "020 - Arc de Water 7_EP024_0248.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 25,
+    "episode_absolute": 249,
+    "episode_id": 432,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-249.mp4",
+    "filename": "020 - Arc de Water 7_EP025_0249.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 26,
+    "episode_absolute": 250,
+    "episode_id": 433,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-250.mp4",
+    "filename": "020 - Arc de Water 7_EP026_0250.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 27,
+    "episode_absolute": 251,
+    "episode_id": 434,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-251.mp4",
+    "filename": "020 - Arc de Water 7_EP027_0251.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 28,
+    "episode_absolute": 252,
+    "episode_id": 435,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-23/op_cat-252.mp4",
+    "filename": "020 - Arc de Water 7_EP028_0252.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 29,
+    "episode_absolute": 253,
+    "episode_id": 436,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-253.mp4",
+    "filename": "020 - Arc de Water 7_EP029_0253.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 30,
+    "episode_absolute": 254,
+    "episode_id": 437,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-254.mp4",
+    "filename": "020 - Arc de Water 7_EP030_0254.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 31,
+    "episode_absolute": 255,
+    "episode_id": 438,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-255.mp4",
+    "filename": "020 - Arc de Water 7_EP031_0255.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 32,
+    "episode_absolute": 256,
+    "episode_id": 439,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-256.mp4",
+    "filename": "020 - Arc de Water 7_EP032_0256.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 33,
+    "episode_absolute": 257,
+    "episode_id": 440,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-257.mp4",
+    "filename": "020 - Arc de Water 7_EP033_0257.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 34,
+    "episode_absolute": 258,
+    "episode_id": 441,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-258.mp4",
+    "filename": "020 - Arc de Water 7_EP034_0258.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 35,
+    "episode_absolute": 259,
+    "episode_id": 442,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-259.mp4",
+    "filename": "020 - Arc de Water 7_EP035_0259.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 36,
+    "episode_absolute": 260,
+    "episode_id": 443,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-260.mp4",
+    "filename": "020 - Arc de Water 7_EP036_0260.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 37,
+    "episode_absolute": 261,
+    "episode_id": 444,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-261.mp4",
+    "filename": "020 - Arc de Water 7_EP037_0261.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 38,
+    "episode_absolute": 262,
+    "episode_id": 445,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-262.mp4",
+    "filename": "020 - Arc de Water 7_EP038_0262.mp4"
+  },
+  {
+    "season_number": 20,
+    "season_id": 45,
+    "season_name": "020 - Arc de Water 7",
+    "episode_in_season": 39,
+    "episode_absolute": 263,
+    "episode_id": 446,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-24/op_cat-263.mp4",
+    "filename": "020 - Arc de Water 7_EP039_0263.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 1,
+    "episode_absolute": 264,
+    "episode_id": 447,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-264.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP001_0264.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 2,
+    "episode_absolute": 265,
+    "episode_id": 448,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-265.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP002_0265.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 3,
+    "episode_absolute": 266,
+    "episode_id": 449,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-266.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP003_0266.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 4,
+    "episode_absolute": 267,
+    "episode_id": 450,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-267.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP004_0267.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 5,
+    "episode_absolute": 268,
+    "episode_id": 451,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-268.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP005_0268.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 6,
+    "episode_absolute": 269,
+    "episode_id": 452,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-269.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP006_0269.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 7,
+    "episode_absolute": 270,
+    "episode_id": 453,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-270.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP007_0270.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 8,
+    "episode_absolute": 271,
+    "episode_id": 454,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-271.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP008_0271.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 9,
+    "episode_absolute": 272,
+    "episode_id": 455,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-272.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP009_0272.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 10,
+    "episode_absolute": 273,
+    "episode_id": 456,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-273.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP010_0273.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 11,
+    "episode_absolute": 274,
+    "episode_id": 457,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-274.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP011_0274.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 12,
+    "episode_absolute": 275,
+    "episode_id": 458,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-275.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP012_0275.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 13,
+    "episode_absolute": 276,
+    "episode_id": 459,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-276.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP013_0276.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 14,
+    "episode_absolute": 277,
+    "episode_id": 460,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-277.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP014_0277.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 15,
+    "episode_absolute": 278,
+    "episode_id": 461,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-278.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP015_0278.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 16,
+    "episode_absolute": 279,
+    "episode_id": 462,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-279.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP016_0279.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 17,
+    "episode_absolute": 280,
+    "episode_id": 463,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-280.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP017_0280.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 18,
+    "episode_absolute": 281,
+    "episode_id": 464,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-281.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP018_0281.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 19,
+    "episode_absolute": 282,
+    "episode_id": 465,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-282.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP019_0282.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 20,
+    "episode_absolute": 283,
+    "episode_id": 466,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-283.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP020_0283.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 21,
+    "episode_absolute": 284,
+    "episode_id": 467,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-284.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP021_0284.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 22,
+    "episode_absolute": 285,
+    "episode_id": 468,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-285.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP022_0285.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 23,
+    "episode_absolute": 286,
+    "episode_id": 469,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-286.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP023_0286.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 24,
+    "episode_absolute": 287,
+    "episode_id": 470,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-287.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP024_0287.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 25,
+    "episode_absolute": 288,
+    "episode_id": 471,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-288.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP025_0288.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 26,
+    "episode_absolute": 289,
+    "episode_id": 472,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-289.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP026_0289.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 27,
+    "episode_absolute": 290,
+    "episode_id": 473,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-290.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP027_0290.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 28,
+    "episode_absolute": 291,
+    "episode_id": 474,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-291.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP028_0291.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 29,
+    "episode_absolute": 292,
+    "episode_id": 475,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-292.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP029_0292.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 30,
+    "episode_absolute": 293,
+    "episode_id": 476,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-293.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP030_0293.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 31,
+    "episode_absolute": 294,
+    "episode_id": 477,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-294.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP031_0294.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 32,
+    "episode_absolute": 295,
+    "episode_id": 478,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-295.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP032_0295.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 33,
+    "episode_absolute": 296,
+    "episode_id": 479,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-296.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP033_0296.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 34,
+    "episode_absolute": 297,
+    "episode_id": 480,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-297.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP034_0297.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 35,
+    "episode_absolute": 298,
+    "episode_id": 481,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-298.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP035_0298.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 36,
+    "episode_absolute": 299,
+    "episode_id": 482,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-299.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP036_0299.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 37,
+    "episode_absolute": 300,
+    "episode_id": 483,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-300.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP037_0300.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 38,
+    "episode_absolute": 301,
+    "episode_id": 484,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-301.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP038_0301.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 39,
+    "episode_absolute": 302,
+    "episode_id": 485,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-302.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP039_0302.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 40,
+    "episode_absolute": 303,
+    "episode_id": 486,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-303.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP040_0303.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 41,
+    "episode_absolute": 304,
+    "episode_id": 487,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-304.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP041_0304.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 42,
+    "episode_absolute": 305,
+    "episode_id": 488,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-305.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP042_0305.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 43,
+    "episode_absolute": 306,
+    "episode_id": 489,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-306.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP043_0306.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 44,
+    "episode_absolute": 307,
+    "episode_id": 490,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-307.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP044_0307.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 45,
+    "episode_absolute": 308,
+    "episode_id": 491,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-308.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP045_0308.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 46,
+    "episode_absolute": 309,
+    "episode_id": 492,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-309.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP046_0309.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 47,
+    "episode_absolute": 310,
+    "episode_id": 493,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-310.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP047_0310.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 48,
+    "episode_absolute": 311,
+    "episode_id": 494,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-311.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP048_0311.mp4"
+  },
+  {
+    "season_number": 21,
+    "season_id": 46,
+    "season_name": "021 - Arc d'Enies Lobby",
+    "episode_in_season": 49,
+    "episode_absolute": 312,
+    "episode_id": 495,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-25/op_cat-312.mp4",
+    "filename": "021 - Arc d'Enies Lobby_EP049_0312.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 1,
+    "episode_absolute": 313,
+    "episode_id": 496,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-313.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP001_0313.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 2,
+    "episode_absolute": 314,
+    "episode_id": 497,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-314.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP002_0314.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 3,
+    "episode_absolute": 315,
+    "episode_id": 498,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-315.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP003_0315.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 4,
+    "episode_absolute": 316,
+    "episode_id": 499,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-316.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP004_0316.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 5,
+    "episode_absolute": 317,
+    "episode_id": 500,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-317.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP005_0317.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 6,
+    "episode_absolute": 318,
+    "episode_id": 501,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-318.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP006_0318.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 7,
+    "episode_absolute": 319,
+    "episode_id": 502,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-319.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP007_0319.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 8,
+    "episode_absolute": 320,
+    "episode_id": 503,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-320.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP008_0320.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 9,
+    "episode_absolute": 321,
+    "episode_id": 504,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-321.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP009_0321.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 10,
+    "episode_absolute": 322,
+    "episode_id": 505,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-322.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP010_0322.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 11,
+    "episode_absolute": 323,
+    "episode_id": 506,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-323.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP011_0323.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 12,
+    "episode_absolute": 324,
+    "episode_id": 507,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-324.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP012_0324.mp4"
+  },
+  {
+    "season_number": 22,
+    "season_id": 47,
+    "season_name": "022 - Arc del retorn a Water 7",
+    "episode_in_season": 13,
+    "episode_absolute": 325,
+    "episode_id": 508,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-26/op_cat-325.mp4",
+    "filename": "022 - Arc del retorn a Water 7_EP013_0325.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 1,
+    "episode_absolute": 326,
+    "episode_id": 509,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-326.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP001_0326.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 2,
+    "episode_absolute": 327,
+    "episode_id": 510,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-327.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP002_0327.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 3,
+    "episode_absolute": 328,
+    "episode_id": 511,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-328.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP003_0328.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 4,
+    "episode_absolute": 329,
+    "episode_id": 512,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-329.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP004_0329.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 5,
+    "episode_absolute": 330,
+    "episode_id": 513,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-330.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP005_0330.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 6,
+    "episode_absolute": 331,
+    "episode_id": 514,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-331.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP006_0331.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 7,
+    "episode_absolute": 332,
+    "episode_id": 515,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-332.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP007_0332.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 8,
+    "episode_absolute": 333,
+    "episode_id": 516,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-333.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP008_0333.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 9,
+    "episode_absolute": 334,
+    "episode_id": 517,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-334.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP009_0334.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 10,
+    "episode_absolute": 335,
+    "episode_id": 518,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-335.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP010_0335.mp4"
+  },
+  {
+    "season_number": 23,
+    "season_id": 48,
+    "season_name": "023 - Arc d'en Don Accino",
+    "episode_in_season": 11,
+    "episode_absolute": 336,
+    "episode_id": 519,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-27/op_cat-336.mp4",
+    "filename": "023 - Arc d'en Don Accino_EP011_0336.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 1,
+    "episode_absolute": 337,
+    "episode_id": 520,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-337.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP001_0337.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 2,
+    "episode_absolute": 338,
+    "episode_id": 521,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-338.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP002_0338.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 3,
+    "episode_absolute": 339,
+    "episode_id": 522,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-339.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP003_0339.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 4,
+    "episode_absolute": 340,
+    "episode_id": 523,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-340.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP004_0340.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 5,
+    "episode_absolute": 341,
+    "episode_id": 524,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-341.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP005_0341.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 6,
+    "episode_absolute": 342,
+    "episode_id": 525,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-342.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP006_0342.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 7,
+    "episode_absolute": 343,
+    "episode_id": 526,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-343.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP007_0343.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 8,
+    "episode_absolute": 344,
+    "episode_id": 527,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-344.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP008_0344.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 9,
+    "episode_absolute": 345,
+    "episode_id": 528,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-345.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP009_0345.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 10,
+    "episode_absolute": 346,
+    "episode_id": 529,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-346.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP010_0346.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 11,
+    "episode_absolute": 347,
+    "episode_id": 530,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-347.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP011_0347.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 12,
+    "episode_absolute": 348,
+    "episode_id": 531,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-348.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP012_0348.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 13,
+    "episode_absolute": 349,
+    "episode_id": 532,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-349.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP013_0349.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 14,
+    "episode_absolute": 350,
+    "episode_id": 533,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-350.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP014_0350.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 15,
+    "episode_absolute": 351,
+    "episode_id": 534,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-351.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP015_0351.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 16,
+    "episode_absolute": 352,
+    "episode_id": 535,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-352.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP016_0352.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 17,
+    "episode_absolute": 353,
+    "episode_id": 536,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-353.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP017_0353.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 18,
+    "episode_absolute": 354,
+    "episode_id": 537,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-354.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP018_0354.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 19,
+    "episode_absolute": 355,
+    "episode_id": 538,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-355.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP019_0355.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 20,
+    "episode_absolute": 356,
+    "episode_id": 539,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-356.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP020_0356.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 21,
+    "episode_absolute": 357,
+    "episode_id": 540,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-357.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP021_0357.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 22,
+    "episode_absolute": 358,
+    "episode_id": 541,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-358.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP022_0358.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 23,
+    "episode_absolute": 359,
+    "episode_id": 542,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-359.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP023_0359.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 24,
+    "episode_absolute": 360,
+    "episode_id": 543,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-360.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP024_0360.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 25,
+    "episode_absolute": 361,
+    "episode_id": 544,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-361.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP025_0361.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 26,
+    "episode_absolute": 362,
+    "episode_id": 545,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-362.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP026_0362.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 27,
+    "episode_absolute": 363,
+    "episode_id": 546,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-363.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP027_0363.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 28,
+    "episode_absolute": 364,
+    "episode_id": 547,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-364.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP028_0364.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 29,
+    "episode_absolute": 365,
+    "episode_id": 548,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-365.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP029_0365.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 30,
+    "episode_absolute": 366,
+    "episode_id": 549,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-366.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP030_0366.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 31,
+    "episode_absolute": 367,
+    "episode_id": 550,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-367.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP031_0367.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 32,
+    "episode_absolute": 368,
+    "episode_id": 551,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-368.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP032_0368.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 33,
+    "episode_absolute": 369,
+    "episode_id": 552,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-369.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP033_0369.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 34,
+    "episode_absolute": 370,
+    "episode_id": 553,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-370.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP034_0370.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 35,
+    "episode_absolute": 371,
+    "episode_id": 554,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-371.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP035_0371.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 36,
+    "episode_absolute": 372,
+    "episode_id": 555,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-372.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP036_0372.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 37,
+    "episode_absolute": 373,
+    "episode_id": 556,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-373.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP037_0373.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 38,
+    "episode_absolute": 374,
+    "episode_id": 557,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-374.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP038_0374.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 39,
+    "episode_absolute": 375,
+    "episode_id": 558,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-375.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP039_0375.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 40,
+    "episode_absolute": 376,
+    "episode_id": 559,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-376.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP040_0376.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 41,
+    "episode_absolute": 377,
+    "episode_id": 560,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-377.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP041_0377.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 42,
+    "episode_absolute": 378,
+    "episode_id": 561,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-378.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP042_0378.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 43,
+    "episode_absolute": 379,
+    "episode_id": 562,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-379.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP043_0379.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 44,
+    "episode_absolute": 380,
+    "episode_id": 563,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-380.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP044_0380.mp4"
+  },
+  {
+    "season_number": 24,
+    "season_id": 49,
+    "season_name": "024 - Arc de Thriller Bark",
+    "episode_in_season": 45,
+    "episode_absolute": 381,
+    "episode_id": 564,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-28/op_cat-381.mp4",
+    "filename": "024 - Arc de Thriller Bark_EP045_0381.mp4"
+  },
+  {
+    "season_number": 25,
+    "season_id": 50,
+    "season_name": "025 - Arc de l'Illa Balneari",
+    "episode_in_season": 1,
+    "episode_absolute": 382,
+    "episode_id": 565,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-29/op_cat-382.mp4",
+    "filename": "025 - Arc de l'Illa Balneari_EP001_0382.mp4"
+  },
+  {
+    "season_number": 25,
+    "season_id": 50,
+    "season_name": "025 - Arc de l'Illa Balneari",
+    "episode_in_season": 2,
+    "episode_absolute": 383,
+    "episode_id": 566,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-29/op_cat-383.mp4",
+    "filename": "025 - Arc de l'Illa Balneari_EP002_0383.mp4"
+  },
+  {
+    "season_number": 25,
+    "season_id": 50,
+    "season_name": "025 - Arc de l'Illa Balneari",
+    "episode_in_season": 3,
+    "episode_absolute": 384,
+    "episode_id": 567,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-29/op_cat-384.mp4",
+    "filename": "025 - Arc de l'Illa Balneari_EP003_0384.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 1,
+    "episode_absolute": 385,
+    "episode_id": 568,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-30/op_cat-385.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP001_0385.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 2,
+    "episode_absolute": 386,
+    "episode_id": 569,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-30/op_cat-386.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP002_0386.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 3,
+    "episode_absolute": 387,
+    "episode_id": 570,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-30/op_cat-387.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP003_0387.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 4,
+    "episode_absolute": 388,
+    "episode_id": 571,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-30/op_cat-388.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP004_0388.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 5,
+    "episode_absolute": 389,
+    "episode_id": 572,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-30/op_cat-389.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP005_0389.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 6,
+    "episode_absolute": 390,
+    "episode_id": 573,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-390.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP006_0390.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 7,
+    "episode_absolute": 391,
+    "episode_id": 574,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-391.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP007_0391.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 8,
+    "episode_absolute": 392,
+    "episode_id": 575,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-392.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP008_0392.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 9,
+    "episode_absolute": 393,
+    "episode_id": 576,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-393.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP009_0393.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 10,
+    "episode_absolute": 394,
+    "episode_id": 577,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-394.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP010_0394.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 11,
+    "episode_absolute": 395,
+    "episode_id": 578,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-395.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP011_0395.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 12,
+    "episode_absolute": 396,
+    "episode_id": 579,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-396.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP012_0396.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 13,
+    "episode_absolute": 397,
+    "episode_id": 580,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-397.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP013_0397.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 14,
+    "episode_absolute": 398,
+    "episode_id": 581,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-398.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP014_0398.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 15,
+    "episode_absolute": 399,
+    "episode_id": 582,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-399.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP015_0399.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 16,
+    "episode_absolute": 400,
+    "episode_id": 583,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-400.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP016_0400.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 17,
+    "episode_absolute": 401,
+    "episode_id": 584,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-401.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP017_0401.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 18,
+    "episode_absolute": 402,
+    "episode_id": 585,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-402.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP018_0402.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 19,
+    "episode_absolute": 403,
+    "episode_id": 586,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-403.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP019_0403.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 20,
+    "episode_absolute": 404,
+    "episode_id": 587,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-404.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP020_0404.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 21,
+    "episode_absolute": 405,
+    "episode_id": 588,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-405.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP021_0405.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 22,
+    "episode_absolute": 406,
+    "episode_id": 589,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-406.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP022_0406.mp4"
+  },
+  {
+    "season_number": 26,
+    "season_id": 51,
+    "season_name": "026 - Arc de l'Arxipèlag de Sabaody",
+    "episode_in_season": 23,
+    "episode_absolute": 407,
+    "episode_id": 590,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-31/op_cat-407.mp4",
+    "filename": "026 - Arc de l'Arxipèlag de Sabaody_EP023_0407.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 1,
+    "episode_absolute": 408,
+    "episode_id": 591,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-408.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP001_0408.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 2,
+    "episode_absolute": 409,
+    "episode_id": 592,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-409.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP002_0409.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 3,
+    "episode_absolute": 410,
+    "episode_id": 593,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-410.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP003_0410.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 4,
+    "episode_absolute": 411,
+    "episode_id": 594,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-411.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP004_0411.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 5,
+    "episode_absolute": 412,
+    "episode_id": 595,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-412.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP005_0412.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 6,
+    "episode_absolute": 413,
+    "episode_id": 596,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-413.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP006_0413.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 7,
+    "episode_absolute": 414,
+    "episode_id": 597,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-414.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP007_0414.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 8,
+    "episode_absolute": 415,
+    "episode_id": 598,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-415.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP008_0415.mp4"
+  },
+  {
+    "season_number": 27,
+    "season_id": 52,
+    "season_name": "027 - Arc d'Amazon Lily",
+    "episode_in_season": 9,
+    "episode_absolute": 416,
+    "episode_id": 599,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-32/op_cat-416.mp4",
+    "filename": "027 - Arc d'Amazon Lily_EP009_0416.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 1,
+    "episode_absolute": 417,
+    "episode_id": 600,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-417.mp4",
+    "filename": "028 - Arc d'Impel Down_EP001_0417.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 2,
+    "episode_absolute": 418,
+    "episode_id": 601,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-418.mp4",
+    "filename": "028 - Arc d'Impel Down_EP002_0418.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 3,
+    "episode_absolute": 419,
+    "episode_id": 602,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-419.mp4",
+    "filename": "028 - Arc d'Impel Down_EP003_0419.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 4,
+    "episode_absolute": 420,
+    "episode_id": 603,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-420.mp4",
+    "filename": "028 - Arc d'Impel Down_EP004_0420.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 5,
+    "episode_absolute": 421,
+    "episode_id": 604,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-421.mp4",
+    "filename": "028 - Arc d'Impel Down_EP005_0421.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 6,
+    "episode_absolute": 422,
+    "episode_id": 605,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-422.mp4",
+    "filename": "028 - Arc d'Impel Down_EP006_0422.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 7,
+    "episode_absolute": 423,
+    "episode_id": 606,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-423.mp4",
+    "filename": "028 - Arc d'Impel Down_EP007_0423.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 8,
+    "episode_absolute": 424,
+    "episode_id": 607,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-424.mp4",
+    "filename": "028 - Arc d'Impel Down_EP008_0424.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 9,
+    "episode_absolute": 425,
+    "episode_id": 608,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-425.mp4",
+    "filename": "028 - Arc d'Impel Down_EP009_0425.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 10,
+    "episode_absolute": 426,
+    "episode_id": 609,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-426.mp4",
+    "filename": "028 - Arc d'Impel Down_EP010_0426.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 11,
+    "episode_absolute": 427,
+    "episode_id": 610,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-427.mp4",
+    "filename": "028 - Arc d'Impel Down_EP011_0427.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 12,
+    "episode_absolute": 428,
+    "episode_id": 611,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-428.mp4",
+    "filename": "028 - Arc d'Impel Down_EP012_0428.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 13,
+    "episode_absolute": 429,
+    "episode_id": 612,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-429.mp4",
+    "filename": "028 - Arc d'Impel Down_EP013_0429.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 14,
+    "episode_absolute": 430,
+    "episode_id": 613,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-430.mp4",
+    "filename": "028 - Arc d'Impel Down_EP014_0430.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 15,
+    "episode_absolute": 431,
+    "episode_id": 614,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-431.mp4",
+    "filename": "028 - Arc d'Impel Down_EP015_0431.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 16,
+    "episode_absolute": 432,
+    "episode_id": 615,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-432.mp4",
+    "filename": "028 - Arc d'Impel Down_EP016_0432.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 17,
+    "episode_absolute": 433,
+    "episode_id": 616,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-433.mp4",
+    "filename": "028 - Arc d'Impel Down_EP017_0433.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 18,
+    "episode_absolute": 434,
+    "episode_id": 617,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-434.mp4",
+    "filename": "028 - Arc d'Impel Down_EP018_0434.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 19,
+    "episode_absolute": 435,
+    "episode_id": 618,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-435.mp4",
+    "filename": "028 - Arc d'Impel Down_EP019_0435.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 20,
+    "episode_absolute": 436,
+    "episode_id": 619,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-436.mp4",
+    "filename": "028 - Arc d'Impel Down_EP020_0436.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 21,
+    "episode_absolute": 437,
+    "episode_id": 620,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-437.mp4",
+    "filename": "028 - Arc d'Impel Down_EP021_0437.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 22,
+    "episode_absolute": 438,
+    "episode_id": 621,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-438.mp4",
+    "filename": "028 - Arc d'Impel Down_EP022_0438.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 23,
+    "episode_absolute": 439,
+    "episode_id": 622,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-439.mp4",
+    "filename": "028 - Arc d'Impel Down_EP023_0439.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 24,
+    "episode_absolute": 440,
+    "episode_id": 623,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-440.mp4",
+    "filename": "028 - Arc d'Impel Down_EP024_0440.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 25,
+    "episode_absolute": 441,
+    "episode_id": 624,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-441.mp4",
+    "filename": "028 - Arc d'Impel Down_EP025_0441.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 26,
+    "episode_absolute": 442,
+    "episode_id": 625,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-442.mp4",
+    "filename": "028 - Arc d'Impel Down_EP026_0442.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 27,
+    "episode_absolute": 443,
+    "episode_id": 626,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-443.mp4",
+    "filename": "028 - Arc d'Impel Down_EP027_0443.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 28,
+    "episode_absolute": 444,
+    "episode_id": 627,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-444.mp4",
+    "filename": "028 - Arc d'Impel Down_EP028_0444.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 29,
+    "episode_absolute": 445,
+    "episode_id": 628,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-445.mp4",
+    "filename": "028 - Arc d'Impel Down_EP029_0445.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 30,
+    "episode_absolute": 446,
+    "episode_id": 629,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-446.mp4",
+    "filename": "028 - Arc d'Impel Down_EP030_0446.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 31,
+    "episode_absolute": 447,
+    "episode_id": 630,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-447.mp4",
+    "filename": "028 - Arc d'Impel Down_EP031_0447.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 32,
+    "episode_absolute": 448,
+    "episode_id": 631,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-448.mp4",
+    "filename": "028 - Arc d'Impel Down_EP032_0448.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 33,
+    "episode_absolute": 449,
+    "episode_id": 632,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-449.mp4",
+    "filename": "028 - Arc d'Impel Down_EP033_0449.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 34,
+    "episode_absolute": 450,
+    "episode_id": 633,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-450.mp4",
+    "filename": "028 - Arc d'Impel Down_EP034_0450.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 35,
+    "episode_absolute": 451,
+    "episode_id": 634,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-451.mp4",
+    "filename": "028 - Arc d'Impel Down_EP035_0451.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 36,
+    "episode_absolute": 452,
+    "episode_id": 635,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-452.mp4",
+    "filename": "028 - Arc d'Impel Down_EP036_0452.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 37,
+    "episode_absolute": 453,
+    "episode_id": 636,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-453.mp4",
+    "filename": "028 - Arc d'Impel Down_EP037_0453.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 38,
+    "episode_absolute": 454,
+    "episode_id": 637,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-454.mp4",
+    "filename": "028 - Arc d'Impel Down_EP038_0454.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 39,
+    "episode_absolute": 455,
+    "episode_id": 638,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-455.mp4",
+    "filename": "028 - Arc d'Impel Down_EP039_0455.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 40,
+    "episode_absolute": 456,
+    "episode_id": 639,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-456.mp4",
+    "filename": "028 - Arc d'Impel Down_EP040_0456.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 41,
+    "episode_absolute": 457,
+    "episode_id": 640,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-457.mp4",
+    "filename": "028 - Arc d'Impel Down_EP041_0457.mp4"
+  },
+  {
+    "season_number": 28,
+    "season_id": 53,
+    "season_name": "028 - Arc d'Impel Down",
+    "episode_in_season": 42,
+    "episode_absolute": 458,
+    "episode_id": 641,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-33/op_cat-458.mp4",
+    "filename": "028 - Arc d'Impel Down_EP042_0458.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 1,
+    "episode_absolute": 459,
+    "episode_id": 642,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-459.mp4",
+    "filename": "029 - Arc de Marineford_EP001_0459.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 2,
+    "episode_absolute": 460,
+    "episode_id": 643,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-460.mp4",
+    "filename": "029 - Arc de Marineford_EP002_0460.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 3,
+    "episode_absolute": 461,
+    "episode_id": 644,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-461.mp4",
+    "filename": "029 - Arc de Marineford_EP003_0461.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 4,
+    "episode_absolute": 462,
+    "episode_id": 645,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-462.mp4",
+    "filename": "029 - Arc de Marineford_EP004_0462.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 5,
+    "episode_absolute": 463,
+    "episode_id": 646,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-463.mp4",
+    "filename": "029 - Arc de Marineford_EP005_0463.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 6,
+    "episode_absolute": 464,
+    "episode_id": 647,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-464.mp4",
+    "filename": "029 - Arc de Marineford_EP006_0464.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 7,
+    "episode_absolute": 465,
+    "episode_id": 648,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-465.mp4",
+    "filename": "029 - Arc de Marineford_EP007_0465.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 8,
+    "episode_absolute": 466,
+    "episode_id": 649,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-466.mp4",
+    "filename": "029 - Arc de Marineford_EP008_0466.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 9,
+    "episode_absolute": 467,
+    "episode_id": 650,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-467.mp4",
+    "filename": "029 - Arc de Marineford_EP009_0467.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 10,
+    "episode_absolute": 468,
+    "episode_id": 651,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-468.mp4",
+    "filename": "029 - Arc de Marineford_EP010_0468.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 11,
+    "episode_absolute": 469,
+    "episode_id": 652,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-469.mp4",
+    "filename": "029 - Arc de Marineford_EP011_0469.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 12,
+    "episode_absolute": 470,
+    "episode_id": 653,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-470.mp4",
+    "filename": "029 - Arc de Marineford_EP012_0470.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 13,
+    "episode_absolute": 471,
+    "episode_id": 654,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-471.mp4",
+    "filename": "029 - Arc de Marineford_EP013_0471.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 14,
+    "episode_absolute": 472,
+    "episode_id": 655,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-472.mp4",
+    "filename": "029 - Arc de Marineford_EP014_0472.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 15,
+    "episode_absolute": 473,
+    "episode_id": 656,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-473.mp4",
+    "filename": "029 - Arc de Marineford_EP015_0473.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 16,
+    "episode_absolute": 474,
+    "episode_id": 657,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-474.mp4",
+    "filename": "029 - Arc de Marineford_EP016_0474.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 17,
+    "episode_absolute": 475,
+    "episode_id": 658,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-475.mp4",
+    "filename": "029 - Arc de Marineford_EP017_0475.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 18,
+    "episode_absolute": 476,
+    "episode_id": 659,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-476.mp4",
+    "filename": "029 - Arc de Marineford_EP018_0476.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 19,
+    "episode_absolute": 477,
+    "episode_id": 660,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-477.mp4",
+    "filename": "029 - Arc de Marineford_EP019_0477.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 20,
+    "episode_absolute": 478,
+    "episode_id": 661,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-478.mp4",
+    "filename": "029 - Arc de Marineford_EP020_0478.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 21,
+    "episode_absolute": 479,
+    "episode_id": 662,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-479.mp4",
+    "filename": "029 - Arc de Marineford_EP021_0479.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 22,
+    "episode_absolute": 480,
+    "episode_id": 663,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-480.mp4",
+    "filename": "029 - Arc de Marineford_EP022_0480.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 23,
+    "episode_absolute": 481,
+    "episode_id": 664,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-481.mp4",
+    "filename": "029 - Arc de Marineford_EP023_0481.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 24,
+    "episode_absolute": 482,
+    "episode_id": 665,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-482.mp4",
+    "filename": "029 - Arc de Marineford_EP024_0482.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 25,
+    "episode_absolute": 483,
+    "episode_id": 666,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-483.mp4",
+    "filename": "029 - Arc de Marineford_EP025_0483.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 26,
+    "episode_absolute": 484,
+    "episode_id": 667,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-484.mp4",
+    "filename": "029 - Arc de Marineford_EP026_0484.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 27,
+    "episode_absolute": 485,
+    "episode_id": 668,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-485.mp4",
+    "filename": "029 - Arc de Marineford_EP027_0485.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 28,
+    "episode_absolute": 486,
+    "episode_id": 669,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-486.mp4",
+    "filename": "029 - Arc de Marineford_EP028_0486.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 29,
+    "episode_absolute": 487,
+    "episode_id": 670,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-487.mp4",
+    "filename": "029 - Arc de Marineford_EP029_0487.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 30,
+    "episode_absolute": 488,
+    "episode_id": 671,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-488.mp4",
+    "filename": "029 - Arc de Marineford_EP030_0488.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 31,
+    "episode_absolute": 489,
+    "episode_id": 672,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-489.mp4",
+    "filename": "029 - Arc de Marineford_EP031_0489.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 32,
+    "episode_absolute": 490,
+    "episode_id": 673,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-490.mp4",
+    "filename": "029 - Arc de Marineford_EP032_0490.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 33,
+    "episode_absolute": 491,
+    "episode_id": 674,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-491.mp4",
+    "filename": "029 - Arc de Marineford_EP033_0491.mp4"
+  },
+  {
+    "season_number": 29,
+    "season_id": 54,
+    "season_name": "029 - Arc de Marineford",
+    "episode_in_season": 34,
+    "episode_absolute": 492,
+    "episode_id": 675,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-34/op_cat-492.mp4",
+    "filename": "029 - Arc de Marineford_EP034_0492.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 1,
+    "episode_absolute": 493,
+    "episode_id": 676,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-493.mp4",
+    "filename": "030 - Arc del 3D2Y_EP001_0493.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 2,
+    "episode_absolute": 494,
+    "episode_id": 677,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-494.mp4",
+    "filename": "030 - Arc del 3D2Y_EP002_0494.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 3,
+    "episode_absolute": 495,
+    "episode_id": 678,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-495.mp4",
+    "filename": "030 - Arc del 3D2Y_EP003_0495.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 4,
+    "episode_absolute": 496,
+    "episode_id": 679,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-496.mp4",
+    "filename": "030 - Arc del 3D2Y_EP004_0496.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 5,
+    "episode_absolute": 497,
+    "episode_id": 680,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-497.mp4",
+    "filename": "030 - Arc del 3D2Y_EP005_0497.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 6,
+    "episode_absolute": 498,
+    "episode_id": 681,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-498.mp4",
+    "filename": "030 - Arc del 3D2Y_EP006_0498.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 7,
+    "episode_absolute": 499,
+    "episode_id": 682,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-499.mp4",
+    "filename": "030 - Arc del 3D2Y_EP007_0499.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 8,
+    "episode_absolute": 500,
+    "episode_id": 683,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-500.mp4",
+    "filename": "030 - Arc del 3D2Y_EP008_0500.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 9,
+    "episode_absolute": 501,
+    "episode_id": 684,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-501.mp4",
+    "filename": "030 - Arc del 3D2Y_EP009_0501.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 10,
+    "episode_absolute": 502,
+    "episode_id": 685,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-502.mp4",
+    "filename": "030 - Arc del 3D2Y_EP010_0502.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 11,
+    "episode_absolute": 503,
+    "episode_id": 686,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-503.mp4",
+    "filename": "030 - Arc del 3D2Y_EP011_0503.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 12,
+    "episode_absolute": 504,
+    "episode_id": 687,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-504.mp4",
+    "filename": "030 - Arc del 3D2Y_EP012_0504.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 13,
+    "episode_absolute": 505,
+    "episode_id": 688,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-505.mp4",
+    "filename": "030 - Arc del 3D2Y_EP013_0505.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 14,
+    "episode_absolute": 506,
+    "episode_id": 689,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-506.mp4",
+    "filename": "030 - Arc del 3D2Y_EP014_0506.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 15,
+    "episode_absolute": 507,
+    "episode_id": 690,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-507.mp4",
+    "filename": "030 - Arc del 3D2Y_EP015_0507.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 16,
+    "episode_absolute": 508,
+    "episode_id": 691,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-508.mp4",
+    "filename": "030 - Arc del 3D2Y_EP016_0508.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 17,
+    "episode_absolute": 509,
+    "episode_id": 692,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-509.mp4",
+    "filename": "030 - Arc del 3D2Y_EP017_0509.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 18,
+    "episode_absolute": 510,
+    "episode_id": 693,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-510.mp4",
+    "filename": "030 - Arc del 3D2Y_EP018_0510.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 19,
+    "episode_absolute": 511,
+    "episode_id": 694,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-511.mp4",
+    "filename": "030 - Arc del 3D2Y_EP019_0511.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 20,
+    "episode_absolute": 512,
+    "episode_id": 695,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-512.mp4",
+    "filename": "030 - Arc del 3D2Y_EP020_0512.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 21,
+    "episode_absolute": 513,
+    "episode_id": 696,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-513.mp4",
+    "filename": "030 - Arc del 3D2Y_EP021_0513.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 22,
+    "episode_absolute": 514,
+    "episode_id": 697,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-514.mp4",
+    "filename": "030 - Arc del 3D2Y_EP022_0514.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 23,
+    "episode_absolute": 515,
+    "episode_id": 698,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-515.mp4",
+    "filename": "030 - Arc del 3D2Y_EP023_0515.mp4"
+  },
+  {
+    "season_number": 30,
+    "season_id": 57,
+    "season_name": "030 - Arc del 3D2Y",
+    "episode_in_season": 24,
+    "episode_absolute": 516,
+    "episode_id": 699,
+    "video_url": "https://multimedia.xarxacatala.cat/one-piece/saga-35/op_cat-516.mp4",
+    "filename": "030 - Arc del 3D2Y_EP024_0516.mp4"
+  }
+]

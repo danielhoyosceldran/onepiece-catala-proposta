@@ -1,0 +1,85 @@
+:root {
+  /* Color tokens — see style.md */
+  --op-navy: #071427;
+  --op-navy-2: #0d2038;
+  --op-navy-3: #142c4c;
+  --op-gold: #e8b23d;
+  --op-gold-dim: #a87a1f;
+  --op-red: #c1272d;
+  --op-red-dim: #7c1a1e;
+  --op-parchment: #f4e8c9;
+  --op-parchment-dim: #d8c79f;
+  --op-teal: #1f7a6c;
+  --op-ink: #1a1310;
+  --op-border: rgba(232, 178, 61, 0.28);
+  --op-cream: #ede4c8;
+  --op-wood: #4a2e18;
+  --op-wood-light: #6b4226;
+  --op-outline: #050d18;
+  --op-poster-paper: #fdf6e2;
+  --op-poster-paper-dim: #f0e4c4;
+
+  /* Type tokens */
+  --font-display: "Pirata One", "Cinzel", serif;
+  --font-accent: "Bangers", "Poppins", cursive;
+  --font-body: "Poppins", "Segoe UI", system-ui, sans-serif;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--op-navy);
+  color: var(--op-parchment);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--op-gold);
+  color: var(--op-ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--op-navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--op-gold-dim);
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

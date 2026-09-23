@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.vercel/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/
