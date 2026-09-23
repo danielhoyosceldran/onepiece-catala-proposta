@@ -203,6 +203,15 @@ export default function Chapters() {
 
   const seasons = useMemo(() => groupBySeason(episodes), [episodes]);
 
+  // Primer cop a Capitols: obre directament el modal "Marcar vist / no vist".
+  useEffect(() => {
+    if (!episodes.length) return;
+    if (localStorage.getItem("opc_mark_modal_intro_shown")) return;
+    localStorage.setItem("opc_mark_modal_intro_shown", "1");
+    openMarkModal();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [episodes]);
+
   // "Continuar veient": episodi amb l'`updatedAt` més recent a opc_progress.
   // Si ja està completat, es proposa el següent. Si no hi ha cap progrés, es
   // proposa el primer episodi de la sèrie ("Començar a veure").

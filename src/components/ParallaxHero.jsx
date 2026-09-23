@@ -129,7 +129,7 @@ export default function ParallaxHero() {
               </a>
               . Aquest portal no allotja cap contingut propi.
             </p>
-            <p>Fet per Daniel Hoyos Celdrán amb Claude.</p>
+            <p>Fet per Daniel Hoyos Celdrán.</p>
           </div>
         </div>
       )}
