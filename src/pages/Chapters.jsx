@@ -92,6 +92,7 @@ export default function Chapters() {
   const [showMarkModal, setShowMarkModal] = useState(false);
   const [markEpisodeId, setMarkEpisodeId] = useState(null);
   const [showSeasonModal, setShowSeasonModal] = useState(false);
+  const [showFavsOnly, setShowFavsOnly] = useState(false);
 
   const videoRef = useRef(null);
   const marksRef = useRef({ introEnd: 170 });
@@ -246,6 +247,17 @@ export default function Chapters() {
   }, [heroInfo]);
 
   const filteredEpisodes = useMemo(() => {
+    if (showFavsOnly) {
+      const favs = episodes.filter((ep) => favIds.has(ep.episode_id));
+      if (!query.trim()) return favs;
+      const q = query.trim().toLowerCase();
+      return favs.filter(
+        (ep) =>
+          ep.season_name.toLowerCase().includes(q) ||
+          String(ep.episode_absolute).includes(q) ||
+          ep.filename.toLowerCase().includes(q)
+      );
+    }
     const season = seasons.find((s) => s.season_number === activeSeason);
     const base = season ? season.episodes : [];
     if (!query.trim()) return base;
@@ -256,7 +268,7 @@ export default function Chapters() {
         String(ep.episode_absolute).includes(q) ||
         ep.filename.toLowerCase().includes(q)
     );
-  }, [seasons, activeSeason, query, episodes]);
+  }, [seasons, activeSeason, query, episodes, showFavsOnly, favIds]);
 
   const selectSeason = (seasonNumber) => {
     setQuery("");
@@ -390,6 +402,16 @@ export default function Chapters() {
             <div className="episodes-header-controls">
               <button
                 type="button"
+                className={"wanted-action fav favs-toggle" + (showFavsOnly ? " active" : "")}
+                onClick={() => setShowFavsOnly((v) => !v)}
+                aria-label={showFavsOnly ? "Mostrar tots els episodis" : "Mostrar només favorits"}
+                title={showFavsOnly ? "Mostrar tots els episodis" : "Mostrar només favorits"}
+              >
+                <StarIcon filled={showFavsOnly} />
+              </button>
+              
+              <button
+                type="button"
                 className="mark-progress-button"
                 onClick={openMarkModal}
               >
@@ -414,7 +436,7 @@ export default function Chapters() {
                 type="button"
                 className="season-trigger"
                 onClick={() => setShowSeasonModal(true)}
-                disabled={!!query}
+                disabled={!!query || showFavsOnly}
               >
                 {activeSeason
                   ? `Saga ${String(activeSeason).padStart(2, "0")} · ${
@@ -484,7 +506,7 @@ export default function Chapters() {
                     >
                       <CheckIcon />
                     </button>
-                    {/* <button
+                    <button
                       type="button"
                       className={"wanted-action fav" + (isFav ? " active" : "")}
                       onClick={() => toggleFav(ep.episode_id)}
@@ -492,13 +514,17 @@ export default function Chapters() {
                       title={isFav ? "Treure de favorits" : "Afegir a favorits"}
                     >
                       <StarIcon filled={isFav} />
-                    </button> */}
+                    </button>
                   </div>
                 </article>
               );
             })}
             {!filteredEpisodes.length && episodes.length > 0 && (
-              <p className="episodes-empty">No hi ha episodis que coincideixin amb la cerca.</p>
+              <p className="episodes-empty">
+                {showFavsOnly
+                  ? "Encara no has marcat cap episodi com a favorit."
+                  : "No hi ha episodis que coincideixin amb la cerca."}
+              </p>
             )}
           </div>
         </section>
