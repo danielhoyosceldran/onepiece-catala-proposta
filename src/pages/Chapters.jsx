@@ -465,7 +465,7 @@ export default function Chapters() {
                   </div>
 
                   <div className="episode-row-actions" onClick={(e) => e.stopPropagation()}>
-                    <span className="episode-row-bounty">฿ {formatBounty(bountyForEpisode(ep))}</span>
+                    {/* <span className="episode-row-bounty">฿ {formatBounty(bountyForEpisode(ep))}</span> */}
                     <button
                       type="button"
                       className={"wanted-action" + (isSeen ? " active" : "")}
@@ -475,7 +475,7 @@ export default function Chapters() {
                     >
                       <CheckIcon />
                     </button>
-                    <button
+                    {/* <button
                       type="button"
                       className={"wanted-action fav" + (isFav ? " active" : "")}
                       onClick={() => toggleFav(ep.episode_id)}
@@ -483,7 +483,7 @@ export default function Chapters() {
                       title={isFav ? "Treure de favorits" : "Afegir a favorits"}
                     >
                       <StarIcon filled={isFav} />
-                    </button>
+                    </button> */}
                   </div>
                 </article>
               );
