@@ -8,7 +8,13 @@ import {
   getAdjacentEpisode,
   flattenOrdered,
 } from "../utils/episodes.js";
-import { getProgress, setProgress, getAllProgress } from "../utils/progress.js";
+import {
+  getProgress,
+  setProgress,
+  getAllProgress,
+  markCompleted,
+  clearAllProgress,
+} from "../utils/progress.js";
 import { resolveMarks } from "../utils/marks.js";
 import { getSeasonImage } from "../utils/seasonImages.js";
 import "../styles/chapters.css";
@@ -246,7 +252,29 @@ export default function Chapters() {
     );
     setSeenIds(next);
     localStorage.setItem("opc_seen", JSON.stringify([...next]));
+    // L'episodi triat passa a ser l'últim completat, perquè "Continua veient"
+    // proposi directament el següent.
+    markCompleted(chosen.episode_id);
+    setProgressMap(getAllProgress());
+    const upcoming = getAdjacentEpisode(episodes, chosen.episode_id, 1) || chosen;
+    setQuery("");
+    setShowFavsOnly(false);
+    setSearchParams({ season: String(upcoming.season_number) }, { replace: true });
     setShowMarkModal(false);
+  };
+
+  // Esborra tot el progrés (vistos i temps de reproducció). Els favorits es mantenen.
+  const resetProgress = () => {
+    if (!window.confirm("Segur que vols reiniciar el progrés? Tots els episodis es marcaran com a no vistos.")) return;
+    clearAllProgress();
+    localStorage.removeItem("opc_seen");
+    setProgressMap({});
+    setSeenIds(new Set());
+    const first = episodes.find((e) => e.episode_absolute === 1) || episodes[0];
+    setMarkEpisodeId(first?.episode_id ?? null);
+    setQuery("");
+    setShowFavsOnly(false);
+    if (first) setSearchParams({ season: String(first.season_number) }, { replace: true });
   };
 
   const activeSeason = Number(searchParams.get("season")) || null;
@@ -719,6 +747,13 @@ export default function Chapters() {
             </select>
 
             <div className="mark-modal-actions">
+              <button
+                type="button"
+                className="mark-modal-reset"
+                onClick={resetProgress}
+              >
+                Reinicia el progrés
+              </button>
               <button
                 type="button"
                 className="mark-modal-cancel"

@@ -41,3 +41,7 @@ export function markCompleted(episodeId) {
   all[episodeId] = { ...prev, completed: true, updatedAt: Date.now() };
   writeAll(all);
 }
+
+export function clearAllProgress() {
+  localStorage.removeItem(STORAGE_KEY);
+}

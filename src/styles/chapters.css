@@ -469,6 +469,18 @@
   margin-top: 8px;
 }
 
+.mark-modal-reset {
+  margin-right: auto;
+  background: transparent;
+  color: #e07a6a;
+  border-color: rgba(224, 122, 106, 0.35);
+}
+
+.mark-modal-reset:hover {
+  background: rgba(224, 122, 106, 0.1);
+}
+
+.mark-modal-reset,
 .mark-modal-cancel,
 .mark-modal-confirm {
   border-radius: 10px;
