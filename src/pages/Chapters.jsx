@@ -58,6 +58,16 @@ function SkipIcon(props) {
     </svg>
   );
 }
+function FullscreenIcon({ exit, ...props }) {
+  const d = exit
+    ? "M8 4v4H4M12 4v4h4M8 16v-4H4M12 16v-4h4"
+    : "M4 8V4h4M16 8V4h-4M4 12v4h4M16 12v4h-4";
+  return (
+    <svg {...ICON_PROPS} {...props}>
+      <path d={d} {...S} />
+    </svg>
+  );
+}
 function ListCheckIcon(props) {
   return (
     <svg {...ICON_PROPS} {...props}>
@@ -94,9 +104,58 @@ export default function Chapters() {
   const [showSeasonModal, setShowSeasonModal] = useState(false);
   const [showFavsOnly, setShowFavsOnly] = useState(false);
 
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [overlayVisible, setOverlayVisible] = useState(false);
+
   const videoRef = useRef(null);
+  const panelRef = useRef(null);
+  const overlayTimerRef = useRef(null);
   const marksRef = useRef({ introEnd: 170 });
   const lastSavedTimeRef = useRef(0);
+
+  // La pantalla completa es fa sobre el contenidor del reproductor (no sobre el
+  // <video>) perquè els botons "Saltar intro" i "Següent" es puguin superposar.
+  const toggleFullscreen = () => {
+    if (document.fullscreenElement) {
+      document.exitFullscreen?.();
+    } else {
+      panelRef.current?.requestFullscreen?.().catch(() => {});
+    }
+  };
+
+  // Imita el comportament dels controls natius: apareixen en moure el ratolí o
+  // tocar la pantalla i s'amaguen després d'uns segons d'inactivitat (mentre es reprodueix).
+  const revealOverlay = () => {
+    setOverlayVisible(true);
+    clearTimeout(overlayTimerRef.current);
+    overlayTimerRef.current = setTimeout(() => {
+      if (videoRef.current && !videoRef.current.paused) setOverlayVisible(false);
+    }, 2800);
+  };
+
+  useEffect(() => {
+    const onChange = () => {
+      const el = document.fullscreenElement;
+      // Navegadors que ignoren `controlsList` (p. ex. Firefox): si el <video> entra
+      // en pantalla completa pel botó natiu, es trasllada al contenidor.
+      if (el && el === videoRef.current && panelRef.current) {
+        document
+          .exitFullscreen()
+          .then(() => panelRef.current?.requestFullscreen())
+          .catch(() => {});
+        return;
+      }
+      const active = !!el && el === panelRef.current;
+      setIsFullscreen(active);
+      if (active) revealOverlay();
+    };
+    document.addEventListener("fullscreenchange", onChange);
+    return () => {
+      document.removeEventListener("fullscreenchange", onChange);
+      clearTimeout(overlayTimerRef.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const recordProgress = (ep, time, duration) => {
     const result = setProgress(ep.episode_id, { time, duration });
@@ -313,18 +372,68 @@ export default function Chapters() {
           >
             <div className={"hero-frame" + (nowPlaying ? " is-playing" : "")}>
               {nowPlaying ? (
-                <div className="player-panel">
+                <div
+                  ref={panelRef}
+                  className={
+                    "player-panel" +
+                    (isFullscreen ? " is-fullscreen" : "") +
+                    (isFullscreen && overlayVisible ? " overlay-visible" : "")
+                  }
+                  onMouseMove={isFullscreen ? revealOverlay : undefined}
+                  onTouchStart={isFullscreen ? revealOverlay : undefined}
+                >
                   <video
                     key={nowPlaying.episode_id}
                     ref={videoRef}
                     className="player-video"
                     src={nowPlaying.video_url}
                     controls
+                    controlsList="nofullscreen"
                     autoPlay
                     onLoadedMetadata={handleLoadedMetadata}
                     onTimeUpdate={handleTimeUpdate}
                     onEnded={handleEnded}
+                    onDoubleClick={toggleFullscreen}
+                    onPause={() => isFullscreen && setOverlayVisible(true)}
+                    onPlay={() => isFullscreen && revealOverlay()}
                   />
+
+                  <div className="player-fs-overlay">
+                    <button
+                      type="button"
+                      className="player-fs-btn player-fs-toggle"
+                      onClick={toggleFullscreen}
+                      aria-label={isFullscreen ? "Sortir de pantalla completa" : "Pantalla completa"}
+                    >
+                      <FullscreenIcon exit={isFullscreen} />
+                    </button>
+                    {isFullscreen && (
+                      <div className="player-fs-actions">
+                        {showSkipIntro && (
+                          <button
+                            type="button"
+                            className="player-fs-btn"
+                            onClick={skipIntro}
+                          >
+                            <SkipIcon /> Saltar intro
+                          </button>
+                        )}
+                        {getAdjacentEpisode(episodes, nowPlaying.episode_id, 1) && (
+                          <button
+                            type="button"
+                            className="player-fs-btn"
+                            onClick={() => {
+                              const next = getAdjacentEpisode(episodes, nowPlaying.episode_id, 1);
+                              if (next) openEpisode(next);
+                            }}
+                            aria-label="Episodi següent"
+                          >
+                            Següent <ChevronIcon dir="right" />
+                          </button>
+                        )}
+                      </div>
+                    )}
+                  </div>
 
                   <div className="player-bar-outside">
                     <span className="player-title">

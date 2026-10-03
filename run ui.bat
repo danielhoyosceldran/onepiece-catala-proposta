@@ -1,2 +1,2 @@
-cd "C:\Users\dceldran\daniel\development\personal\one-piece-cat\web"
+cd "D:\development\onepiece-catala-proposta"
 npm run dev
