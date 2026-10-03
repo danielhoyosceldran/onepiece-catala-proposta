@@ -73,6 +73,9 @@ function ListCheckIcon(props) {
   );
 }
 
+// Segons finals de l'episodi en què apareix el botó "Següent" sobre el vídeo.
+const NEXT_EP_WINDOW = 120;
+
 export default function Chapters() {
   const [episodes, setEpisodes] = useState([]);
   const [error, setError] = useState(null);
@@ -95,6 +98,7 @@ export default function Chapters() {
   });
   const [progressMap, setProgressMap] = useState(() => getAllProgress());
   const [showSkipIntro, setShowSkipIntro] = useState(false);
+  const [showNextEp, setShowNextEp] = useState(false);
   const [showMarkModal, setShowMarkModal] = useState(false);
   const [markEpisodeId, setMarkEpisodeId] = useState(null);
   const [showSeasonModal, setShowSeasonModal] = useState(false);
@@ -163,6 +167,7 @@ export default function Chapters() {
     lastSavedTimeRef.current = 0;
     marksRef.current = { introEnd: 170 };
     setShowSkipIntro(false);
+    setShowNextEp(false);
     setNowPlaying(ep);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -176,6 +181,7 @@ export default function Chapters() {
       video.currentTime = saved.time;
     }
     setShowSkipIntro(video.currentTime < marksRef.current.introEnd);
+    setShowNextEp(duration > 0 && duration - video.currentTime <= NEXT_EP_WINDOW);
   };
 
   const handleTimeUpdate = (e) => {
@@ -184,6 +190,11 @@ export default function Chapters() {
     const duration = video.duration || 0;
 
     setShowSkipIntro(t < marksRef.current.introEnd);
+
+    // "Següent" als últims minuts; en aparèixer, es mostra l'overlay perquè es vegi.
+    const inNextWindow = duration > 0 && duration - t <= NEXT_EP_WINDOW;
+    if (inNextWindow && !showNextEp) revealOverlay();
+    setShowNextEp(inNextWindow);
 
     if (t - lastSavedTimeRef.current >= 5) {
       lastSavedTimeRef.current = t;
@@ -410,7 +421,7 @@ export default function Chapters() {
                           <SkipIcon /> Saltar intro
                         </button>
                       )}
-                      {getAdjacentEpisode(episodes, nowPlaying.episode_id, 1) && (
+                      {showNextEp && getAdjacentEpisode(episodes, nowPlaying.episode_id, 1) && (
                         <button
                           type="button"
                           className="player-overlay-btn"
