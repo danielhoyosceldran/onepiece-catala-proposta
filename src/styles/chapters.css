@@ -720,71 +720,6 @@
   position: relative;
 }
 
-.player-video {
-  width: 100%;
-  max-height: 78vh;
-  display: block;
-  background: #000;
-}
-
-/* --- Botons superposats (Saltar intro / Següent) --- */
-.player-stage {
-  position: relative;
-}
-
-.player-overlay-actions {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  display: flex;
-  gap: 8px;
-  pointer-events: none;
-}
-
-.player-overlay-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border: 1px solid rgba(244, 232, 201, 0.18);
-  border-radius: 999px;
-  background: rgba(10, 16, 28, 0.55);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  color: var(--op-parchment);
-  font-family: var(--font-body);
-  font-size: 0.82rem;
-  font-weight: 500;
-  cursor: pointer;
-  opacity: 0;
-  transform: translateY(-4px);
-  transition: opacity 0.25s ease, transform 0.25s ease, background 0.15s ease, color 0.15s ease;
-}
-
-.player-overlay-btn svg {
-  width: 15px;
-  height: 15px;
-}
-
-.player-overlay-btn:hover {
-  color: var(--op-gold);
-  background: rgba(10, 16, 28, 0.75);
-  border-color: rgba(244, 232, 201, 0.32);
-}
-
-.player-overlay-btn:focus-visible {
-  outline: 2px solid var(--op-gold);
-  outline-offset: 2px;
-}
-
-/* Visibles quan es mostren els controls del vídeo o quan tenen el focus del teclat */
-.player-stage.overlay-visible .player-overlay-btn,
-.player-overlay-btn:focus-visible {
-  opacity: 1;
-  transform: none;
-  pointer-events: auto;
-}
-
 .player-bar-outside {
   display: flex;
   align-items: center;
@@ -873,15 +808,6 @@
   .player-chip {
     padding: 6px 10px;
     font-size: 0.72rem;
-  }
-  .player-overlay-actions {
-    top: 10px;
-    right: 10px;
-    gap: 6px;
-  }
-  .player-overlay-btn {
-    padding: 6px 11px;
-    font-size: 0.74rem;
   }
   .episodes-section {
     padding: 24px 0px 36px;

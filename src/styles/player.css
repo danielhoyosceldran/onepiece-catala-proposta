@@ -1,0 +1,492 @@
+/* ---------- Reproductor d'episodis (HUD pròpia sobre Video.js) ---------- */
+
+.ep-player {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 78vh;
+  overflow: hidden;
+  background: #000;
+  color: var(--op-parchment);
+  font-family: var(--font-body);
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ep-player:fullscreen {
+  max-height: none;
+  aspect-ratio: auto;
+}
+
+.ep-player:focus-visible {
+  outline: 2px solid var(--op-gold);
+  outline-offset: -2px;
+}
+
+.ep-player-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* --- Capa de controls --- */
+.ep-hud-backdrop {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to bottom, rgba(7, 20, 39, 0.75), transparent 28%),
+    linear-gradient(to top, rgba(7, 20, 39, 0.92), rgba(7, 20, 39, 0.4) 26%, transparent 46%);
+  transition: opacity 0.3s ease;
+}
+
+.ep-hud {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 18px 14px;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.ep-hud-backdrop:not([data-visible]),
+.ep-hud:not([data-visible]):not(:has(:focus-visible)) {
+  opacity: 0;
+}
+
+.ep-hud:not([data-visible]):not(:has(:focus-visible)) * {
+  pointer-events: none !important;
+}
+
+.ep-hud-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  /* deixa espai per als botons "Saltar intro" / "Següent" */
+  padding-right: 200px;
+}
+
+.ep-hud-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.ep-hud-title-main {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.1;
+  color: var(--op-parchment);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ep-hud-title-sub {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--op-parchment-dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ep-hud-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: auto;
+}
+
+.ep-hud-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ep-hud-time {
+  flex: none;
+  min-width: 3.4em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--op-parchment);
+  text-align: center;
+}
+
+.ep-hud-time[data-unavailable],
+.ep-hud-time[data-disabled] {
+  opacity: 0.5;
+}
+
+.ep-hud-time-remaining {
+  color: var(--op-parchment-dim);
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.ep-hud-time-remaining:hover {
+  color: var(--op-gold);
+}
+
+.ep-hud-time-remaining:focus-visible {
+  outline: 2px solid var(--op-gold);
+  outline-offset: 2px;
+}
+
+.ep-hud-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ep-hud-cluster {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* --- Botons (mateix estil que els botons de la llista d'episodis) --- */
+.ep-hud-btn {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  background: rgba(13, 32, 56, 0.55);
+  border: 1px solid rgba(244, 232, 201, 0.14);
+  border-radius: 10px;
+  color: var(--op-parchment);
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.ep-hud-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.ep-hud-btn:hover {
+  border-color: var(--op-gold);
+  background: rgba(20, 44, 76, 0.75);
+  color: var(--op-gold);
+}
+
+.ep-hud-btn:focus-visible {
+  outline: 2px solid var(--op-gold);
+  outline-offset: 2px;
+}
+
+.ep-hud-btn[data-disabled] {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.ep-hud-btn-play {
+  background: var(--op-gold);
+  border-color: var(--op-gold);
+  color: var(--op-ink);
+}
+
+.ep-hud-btn-play:hover {
+  background: #f0c25a;
+  border-color: #f0c25a;
+  color: var(--op-ink);
+}
+
+.ep-hud-btn[data-fullscreen],
+.ep-hud-btn[data-pip] {
+  color: var(--op-gold);
+}
+
+/* --- Sliders (progrés i volum) --- */
+.ep-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 22px;
+  cursor: pointer;
+  touch-action: none;
+  outline: none;
+}
+
+.ep-time-slider {
+  flex: 1;
+}
+
+.ep-slider-track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5px;
+  overflow: hidden;
+  background: rgba(244, 232, 201, 0.18);
+  border-radius: 999px;
+  transition: height 0.15s ease;
+}
+
+.ep-slider[data-interactive] .ep-slider-track,
+.ep-slider:focus-visible .ep-slider-track {
+  height: 7px;
+}
+
+.ep-slider-buffer {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--media-slider-buffer);
+  background: rgba(244, 232, 201, 0.32);
+  border-radius: inherit;
+}
+
+.ep-slider-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--media-slider-fill);
+  background: linear-gradient(90deg, var(--op-gold-dim), var(--op-gold));
+  border-radius: inherit;
+}
+
+.ep-slider[data-dragging] .ep-slider-fill {
+  width: var(--media-slider-pointer);
+}
+
+.ep-slider-thumb {
+  position: absolute;
+  left: var(--media-slider-fill);
+  width: 14px;
+  height: 14px;
+  background: var(--op-parchment);
+  border: 2px solid var(--op-gold);
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  transform: translateX(-50%) scale(0);
+  transition: transform 0.15s ease;
+}
+
+.ep-slider[data-interactive] .ep-slider-thumb,
+.ep-slider:focus-visible .ep-slider-thumb {
+  transform: translateX(-50%) scale(1);
+}
+
+.ep-slider[data-dragging] .ep-slider-thumb {
+  left: var(--media-slider-pointer);
+}
+
+.ep-slider-preview {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  padding: 4px 8px;
+  background: var(--op-navy-2);
+  border: 1px solid var(--op-border);
+  border-radius: 8px;
+  font-size: 0.76rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--op-parchment);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.ep-slider[data-pointing] .ep-slider-preview,
+.ep-slider[data-dragging] .ep-slider-preview {
+  opacity: 1;
+}
+
+.ep-hud-volume {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ep-volume-slider {
+  width: 76px;
+}
+
+.ep-volume-slider .ep-slider-fill {
+  background: var(--op-parchment);
+}
+
+/* --- Indicador de càrrega --- */
+.ep-player-buffering {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.ep-player-buffering[data-visible] {
+  opacity: 1;
+}
+
+.ep-player-spinner {
+  width: 44px;
+  height: 44px;
+  border: 3px solid rgba(244, 232, 201, 0.2);
+  border-top-color: var(--op-gold);
+  border-radius: 50%;
+  animation: ep-spin 0.8s linear infinite;
+}
+
+@keyframes ep-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* --- Botons superposats (Saltar intro / Següent) --- */
+.ep-player-actions {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  z-index: 2;
+  display: flex;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.ep-player-action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  background: rgba(13, 32, 56, 0.7);
+  border: 1px solid rgba(244, 232, 201, 0.18);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--op-parchment);
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.25s ease, transform 0.25s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.ep-player-action svg {
+  width: 15px;
+  height: 15px;
+}
+
+.ep-player-action:hover {
+  border-color: var(--op-gold);
+  background: rgba(20, 44, 76, 0.85);
+}
+
+.ep-player-action.is-primary {
+  background: var(--op-gold);
+  border-color: var(--op-gold);
+  color: var(--op-ink);
+}
+
+.ep-player-action.is-primary:hover {
+  background: #f0c25a;
+  border-color: #f0c25a;
+}
+
+.ep-player-action:focus-visible {
+  outline: 2px solid var(--op-gold);
+  outline-offset: 2px;
+}
+
+.ep-player-action.is-visible,
+.ep-player-action:focus-visible {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+/* Pantalla completa: tot una mica més gran */
+.ep-player:fullscreen .ep-hud {
+  padding: 28px 36px 26px;
+}
+
+.ep-player:fullscreen .ep-hud-title-main {
+  font-size: 2rem;
+}
+
+.ep-player:fullscreen .ep-hud-btn {
+  width: 46px;
+  height: 46px;
+}
+
+.ep-player:fullscreen .ep-hud-btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+.ep-player:fullscreen .ep-hud-time {
+  font-size: 0.95rem;
+}
+
+.ep-player:fullscreen .ep-player-actions {
+  top: 28px;
+  right: 36px;
+}
+
+/* Mòbil / tàctil */
+@media (pointer: coarse) {
+  .ep-volume-slider {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .ep-hud {
+    padding: 10px 10px 8px;
+  }
+  .ep-hud-top {
+    padding-right: 150px;
+  }
+  .ep-hud-title-main {
+    font-size: 1.05rem;
+  }
+  .ep-hud-title-sub {
+    display: none;
+  }
+  .ep-hud-bottom {
+    gap: 4px;
+  }
+  .ep-hud-progress {
+    gap: 8px;
+  }
+  .ep-hud-time {
+    font-size: 0.72rem;
+  }
+  .ep-hud-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+  .ep-hud-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+  .ep-player-actions {
+    top: 10px;
+    right: 10px;
+    gap: 6px;
+  }
+  .ep-player-action {
+    padding: 6px 10px;
+    font-size: 0.74rem;
+  }
+}

@@ -17,6 +17,7 @@ import {
 } from "../utils/progress.js";
 import { resolveMarks } from "../utils/marks.js";
 import { getSeasonImage } from "../utils/seasonImages.js";
+import EpisodePlayer from "../components/EpisodePlayer.jsx";
 import "../styles/chapters.css";
 
 const ICON_PROPS = { viewBox: "0 0 20 20", fill: "none", "aria-hidden": "true" };
@@ -56,14 +57,6 @@ function ChevronIcon({ dir = "right", ...props }) {
     </svg>
   );
 }
-function SkipIcon(props) {
-  return (
-    <svg {...ICON_PROPS} {...props}>
-      <path d="M4.5 5v10l6.5-5-6.5-5Z" fill="currentColor" stroke="none" />
-      <path d="M12 5v10" {...S} />
-    </svg>
-  );
-}
 function ListCheckIcon(props) {
   return (
     <svg {...ICON_PROPS} {...props}>
@@ -75,6 +68,7 @@ function ListCheckIcon(props) {
 
 // Segons finals de l'episodi en què apareix el botó "Següent" sobre el vídeo.
 const NEXT_EP_WINDOW = 120;
+
 
 export default function Chapters() {
   const [episodes, setEpisodes] = useState([]);
@@ -104,51 +98,9 @@ export default function Chapters() {
   const [showSeasonModal, setShowSeasonModal] = useState(false);
   const [showFavsOnly, setShowFavsOnly] = useState(false);
 
-  const [overlayVisible, setOverlayVisible] = useState(true);
-
   const videoRef = useRef(null);
-  const overlayTimerRef = useRef(null);
   const marksRef = useRef({ introEnd: 170 });
   const lastSavedTimeRef = useRef(0);
-
-  // Imita el comportament dels controls natius: apareixen en moure el ratolí o
-  // tocar el vídeo i s'amaguen després d'uns segons d'inactivitat (mentre es reprodueix).
-  const revealOverlay = () => {
-    setOverlayVisible(true);
-    clearTimeout(overlayTimerRef.current);
-    overlayTimerRef.current = setTimeout(() => {
-      if (videoRef.current && !videoRef.current.paused) setOverlayVisible(false);
-    }, 2800);
-  };
-
-  const hideOverlay = () => {
-    clearTimeout(overlayTimerRef.current);
-    if (videoRef.current && !videoRef.current.paused) setOverlayVisible(false);
-  };
-
-  useEffect(() => {
-    const onChange = () => {
-      const el = document.fullscreenElement;
-      if (el && el === videoRef.current) {
-        // En mòbil, la pantalla completa sempre en horitzontal.
-        if (window.matchMedia("(pointer: coarse)").matches) {
-          screen.orientation?.lock?.("landscape").catch(() => {});
-        }
-      } else {
-        try {
-          screen.orientation?.unlock?.();
-        } catch {
-          /* no suportat */
-        }
-      }
-    };
-    document.addEventListener("fullscreenchange", onChange);
-    return () => {
-      document.removeEventListener("fullscreenchange", onChange);
-      clearTimeout(overlayTimerRef.current);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   const recordProgress = (ep, time, duration) => {
     const result = setProgress(ep.episode_id, { time, duration });
@@ -191,10 +143,8 @@ export default function Chapters() {
 
     setShowSkipIntro(t < marksRef.current.introEnd);
 
-    // "Següent" als últims minuts; en aparèixer, es mostra l'overlay perquè es vegi.
-    const inNextWindow = duration > 0 && duration - t <= NEXT_EP_WINDOW;
-    if (inNextWindow && !showNextEp) revealOverlay();
-    setShowNextEp(inNextWindow);
+    // "Següent" als últims minuts.
+    setShowNextEp(duration > 0 && duration - t <= NEXT_EP_WINDOW);
 
     if (t - lastSavedTimeRef.current >= 5) {
       lastSavedTimeRef.current = t;
@@ -395,47 +345,23 @@ export default function Chapters() {
             <div className={"hero-frame" + (nowPlaying ? " is-playing" : "")}>
               {nowPlaying ? (
                 <div className="player-panel">
-                  <div
-                    className={"player-stage" + (overlayVisible ? " overlay-visible" : "")}
-                    onMouseMove={revealOverlay}
-                    onMouseLeave={hideOverlay}
-                    onTouchStart={revealOverlay}
-                  >
-                    <video
-                      key={nowPlaying.episode_id}
-                      ref={videoRef}
-                      className="player-video"
-                      src={nowPlaying.video_url}
-                      controls
-                      autoPlay
-                      onLoadedMetadata={handleLoadedMetadata}
-                      onTimeUpdate={handleTimeUpdate}
-                      onEnded={handleEnded}
-                      onPause={() => setOverlayVisible(true)}
-                      onPlay={revealOverlay}
-                    />
-
-                    <div className="player-overlay-actions">
-                      {showSkipIntro && (
-                        <button type="button" className="player-overlay-btn" onClick={skipIntro}>
-                          <SkipIcon /> Saltar intro
-                        </button>
-                      )}
-                      {showNextEp && getAdjacentEpisode(episodes, nowPlaying.episode_id, 1) && (
-                        <button
-                          type="button"
-                          className="player-overlay-btn"
-                          onClick={() => {
-                            const next = getAdjacentEpisode(episodes, nowPlaying.episode_id, 1);
-                            if (next) openEpisode(next);
-                          }}
-                          aria-label="Episodi següent"
-                        >
-                          Següent <ChevronIcon dir="right" />
-                        </button>
-                      )}
-                    </div>
-                  </div>
+                  <EpisodePlayer
+                    key={nowPlaying.episode_id}
+                    ref={videoRef}
+                    src={nowPlaying.video_url}
+                    title={`Episodi ${nowPlaying.episode_in_season}`}
+                    subtitle={nowPlaying.season_name}
+                    onLoadedMetadata={handleLoadedMetadata}
+                    onTimeUpdate={handleTimeUpdate}
+                    onEnded={handleEnded}
+                    showSkipIntro={showSkipIntro}
+                    onSkipIntro={skipIntro}
+                    showNext={showNextEp && !!getAdjacentEpisode(episodes, nowPlaying.episode_id, 1)}
+                    onNext={() => {
+                      const next = getAdjacentEpisode(episodes, nowPlaying.episode_id, 1);
+                      if (next) openEpisode(next);
+                    }}
+                  />
 
                   <div className="player-bar-outside">
                     <span className="player-title">
