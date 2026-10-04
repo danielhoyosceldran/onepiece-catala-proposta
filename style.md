@@ -184,6 +184,19 @@ de 4-5 enlaces sin rediseñar a menú hamburguesa en mobile.
   montada actualmente en ninguna página). Si se reutiliza, hazlo como
   indicador de "más contenido abajo" o de carga, no como decoración suelta.
 - `Navbar.jsx` — navegación global.
+- `InstallPrompt.jsx` (+ `styles/install.css`) — aviso flotante (abajo a la
+  derecha, `z-index: 900`, por debajo de los modales a 1000) que sugiere
+  instalar la PWA. Mismo lenguaje que el modal de Crèdits: superficie
+  `--op-navy-2`, borde sutil + filete izquierdo dorado, título en
+  `Pirata One`, botón primario dorado tipo píldora ("Instal·la") y botón
+  secundario translúcido ("Ara no"), más un checkbox "No ho tornis a
+  mostrar". Montado una vez en `App.jsx`, aparece 4 s después de recibir
+  `beforeinstallprompt` (Chromium) o, en iOS Safari (sin ese evento), con
+  instrucciones manuales y botón "Entesos" en lugar de "Instal·la". Nunca
+  se muestra si la app ya corre en `display-mode: standalone`.
+  Persistencia: "Ara no" → `sessionStorage` `opc_install_later` (vuelve en
+  la siguiente sesión); checkbox marcado, instalar o evento `appinstalled`
+  → `localStorage` `opc_install_never` (instalar marca el checkbox solo).
 - `ParallaxHero.jsx` — solo para la Landing; si se necesita un hero en otra
   página, extraer una variante configurable en vez de duplicar el CSS.
 

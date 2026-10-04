@@ -433,6 +433,16 @@
   height: 22px;
 }
 
+.ep-player:fullscreen .ep-hud-center {
+  width: 72px;
+  height: 72px;
+}
+
+.ep-player:fullscreen .ep-hud-center svg {
+  width: 30px;
+  height: 30px;
+}
+
 .ep-player:fullscreen .ep-hud-time {
   font-size: 0.95rem;
 }
@@ -442,10 +452,58 @@
   right: 36px;
 }
 
+/* --- Botó central de reproducció (només tàctil) --- */
+.ep-hud-center {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  place-items: center;
+  background: rgba(13, 32, 56, 0.35);
+  border: 1px solid rgba(244, 232, 201, 0.14);
+  border-radius: 50%;
+  color: var(--op-parchment);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  pointer-events: auto;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.ep-hud-center svg {
+  width: 26px;
+  height: 26px;
+}
+
+.ep-hud-center:active {
+  transform: translate(-50%, -50%) scale(0.92);
+}
+
+.ep-hud-center:focus-visible {
+  outline: 2px solid var(--op-gold);
+  outline-offset: 2px;
+}
+
+/* No es solapa amb l'indicador de càrrega */
+.ep-player:has(.ep-player-buffering[data-visible]) .ep-hud-center {
+  opacity: 0;
+  pointer-events: none;
+}
+
 /* Mòbil / tàctil */
 @media (pointer: coarse) {
   .ep-volume-slider {
     display: none;
+  }
+}
+
+/* Botó central: pantalles tàctils o estretes (també amb l'emulació de DevTools) */
+@media (pointer: coarse), (max-width: 720px) {
+  .ep-hud-center {
+    display: grid;
   }
 }
 

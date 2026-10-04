@@ -176,6 +176,16 @@ const EpisodePlayer = forwardRef(function EpisodePlayer(
                 </div>
               </div>
 
+              {/* Botó central per a pantalles tàctils (només visible amb pointer: coarse) */}
+              <PlayButton
+                className="ep-hud-center"
+                render={(props, state) => (
+                  <button {...props}>
+                    {state.ended ? <ReplayIcon /> : state.paused ? <PlayIcon /> : <PauseIcon />}
+                  </button>
+                )}
+              />
+
               <Controls.Group className="ep-hud-bottom" aria-label="Controls de reproducció">
                 <div className="ep-hud-progress">
                   <Time.Value type="current" className="ep-hud-time" />
