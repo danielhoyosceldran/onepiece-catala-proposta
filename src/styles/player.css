@@ -415,24 +415,20 @@
   color: var(--op-ink);
 }
 
-.ep-player-action.is-visible:active {
-  transform: scale(0.96);
-}
-
 .ep-player-action:focus-visible {
   outline: 2px solid var(--op-gold);
   outline-offset: 2px;
 }
 
 .ep-player-action.is-visible,
-.ep-player-action.is-visible:active {
-  transform: scale(0.96);
-}
-
 .ep-player-action:focus-visible {
   opacity: 1;
   transform: none;
   pointer-events: auto;
+}
+
+.ep-player-action.is-visible:active {
+  transform: scale(0.96);
 }
 
 /* Pantalla completa: tot una mica més gran */
