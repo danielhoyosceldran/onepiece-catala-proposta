@@ -5,6 +5,7 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   max-height: 78vh;
+  max-height: 78dvh;
   overflow: hidden;
   background: #000;
   color: var(--op-parchment);
@@ -133,10 +134,6 @@
   border-radius: 6px;
 }
 
-.ep-hud-time-remaining:hover {
-  color: var(--op-gold);
-}
-
 .ep-hud-time-remaining:focus-visible {
   outline: 2px solid var(--op-gold);
   outline-offset: 2px;
@@ -169,18 +166,21 @@
   cursor: pointer;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease,
+    transform 0.12s var(--ease-out);
+}
+
+.ep-hud-btn:not([data-disabled]):active {
+  transform: scale(0.92);
+}
+
+.ep-hud-btn:not([data-disabled]):not(.ep-hud-btn-play):active {
+  background: rgba(20, 44, 76, 0.85);
 }
 
 .ep-hud-btn svg {
   width: 18px;
   height: 18px;
-}
-
-.ep-hud-btn:hover {
-  border-color: var(--op-gold);
-  background: rgba(20, 44, 76, 0.75);
-  color: var(--op-gold);
 }
 
 .ep-hud-btn:focus-visible {
@@ -196,12 +196,6 @@
 .ep-hud-btn-play {
   background: var(--op-gold);
   border-color: var(--op-gold);
-  color: var(--op-ink);
-}
-
-.ep-hud-btn-play:hover {
-  background: #f0c25a;
-  border-color: #f0c25a;
   color: var(--op-ink);
 }
 
@@ -319,6 +313,35 @@
   background: var(--op-parchment);
 }
 
+/* Hover només amb punter precís: en tàctil quedaria enganxat després del toc */
+@media (hover: hover) and (pointer: fine) {
+  .ep-hud-time-remaining:hover {
+    color: var(--op-gold);
+  }
+
+  .ep-hud-btn:hover {
+    border-color: var(--op-gold);
+    background: rgba(20, 44, 76, 0.75);
+    color: var(--op-gold);
+  }
+
+  .ep-hud-btn-play:hover {
+    background: #f0c25a;
+    border-color: #f0c25a;
+    color: var(--op-ink);
+  }
+
+  .ep-player-action:hover {
+    border-color: var(--op-gold);
+    background: rgba(20, 44, 76, 0.85);
+  }
+
+  .ep-player-action.is-primary:hover {
+    background: #f0c25a;
+    border-color: #f0c25a;
+  }
+}
+
 /* --- Indicador de càrrega --- */
 .ep-player-buffering {
   position: absolute;
@@ -386,20 +409,14 @@
   height: 15px;
 }
 
-.ep-player-action:hover {
-  border-color: var(--op-gold);
-  background: rgba(20, 44, 76, 0.85);
-}
-
 .ep-player-action.is-primary {
   background: var(--op-gold);
   border-color: var(--op-gold);
   color: var(--op-ink);
 }
 
-.ep-player-action.is-primary:hover {
-  background: #f0c25a;
-  border-color: #f0c25a;
+.ep-player-action.is-visible:active {
+  transform: scale(0.96);
 }
 
 .ep-player-action:focus-visible {
@@ -408,6 +425,10 @@
 }
 
 .ep-player-action.is-visible,
+.ep-player-action.is-visible:active {
+  transform: scale(0.96);
+}
+
 .ep-player-action:focus-visible {
   opacity: 1;
   transform: none;
@@ -416,7 +437,8 @@
 
 /* Pantalla completa: tot una mica més gran */
 .ep-player:fullscreen .ep-hud {
-  padding: 28px 36px 26px;
+  padding: calc(28px + var(--safe-top)) calc(36px + var(--safe-right)) calc(26px + var(--safe-bottom))
+    calc(36px + var(--safe-left));
 }
 
 .ep-player:fullscreen .ep-hud-title-main {
@@ -448,8 +470,8 @@
 }
 
 .ep-player:fullscreen .ep-player-actions {
-  top: 28px;
-  right: 36px;
+  top: calc(28px + var(--safe-top));
+  right: calc(36px + var(--safe-right));
 }
 
 /* --- Botó central de reproducció (només tàctil) --- */

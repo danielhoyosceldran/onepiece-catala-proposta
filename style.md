@@ -219,3 +219,29 @@ de 4-5 enlaces sin rediseñar a menú hamburguesa en mobile.
 6. Después de cualquier cambio de layout/estilo: actualiza la sección
    correspondiente de este archivo en el mismo cambio (no en un commit
    aparte).
+
+## 7. Mòbil i tàctil (web app que ha de semblar nativa, també a PC)
+
+Regles base a `src/index.css` i `index.html`; respectar-les en tot CSS nou:
+
+- **Hover només amb punter precís.** Tot `:hover` va dins
+  `@media (hover: hover) and (pointer: fine)`; si no, queda enganxat després
+  d'un toc. El feedback tàctil és `:active` (`scale(0.97)` aprox., 100–160 ms,
+  `var(--ease-out)`).
+- **Alçades de pantalla:** `100dvh` (amb `100vh` de reserva al davant) per a
+  pantalles d'app (`.hero` de Landing, `.chapters-shell`, modals). Mai `100vh` sol.
+- **Safe areas:** `viewport-fit=cover` + tokens `--safe-top/right/bottom/left`.
+  Navbar, capçalera sticky d'episodis, llista, modals, instal·lació i el
+  reproductor a pantalla completa ja els apliquen; qualsevol element `fixed`/
+  `sticky` nou els ha de sumar al seu padding.
+- **Inputs a 16px en tàctil** (regla global a `index.css`); no posar mai
+  `maximum-scale` ni `user-scalable=no`.
+- **Objectius tàctils ≥ 40px** sota `@media (pointer: coarse)`.
+- **Scroll:** `overscroll-behavior: none` a `html, body`; `contain` a qualsevol
+  contenidor amb scroll propi (modals, carrusels).
+- **`user-select: none` només a controls** (botons, banderes), mai a text de
+  contingut.
+- **Navbar:** `fixed` només a la Landing (transparent i sense scroll); a la
+  resta de pàgines és `absolute` i desapareix amb el hero.
+- **Capçalera d'episodis en mòbil (≤720px):** graella de dues files: títol +
+  favorits + marcar (només icona) / cerca + saga, a meitats iguals.

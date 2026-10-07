@@ -6,14 +6,18 @@
 
 .hero {
   position: relative;
+  /* Landing locks body scroll, so this is an app screen: track the visible
+     area as the URL bar shows/hides instead of overflowing under it. */
   height: 100vh;
-  min-height: 640px;
+  height: 100dvh;
+  min-height: 460px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: clamp(20px, 7vw, 100px);
-  padding-right: clamp(20px, 7vw, 100px);
+  padding-left: calc(clamp(20px, 7vw, 100px) + var(--safe-left));
+  padding-right: calc(clamp(20px, 7vw, 100px) + var(--safe-right));
+  padding-top: var(--safe-top);
 }
 
 .hero-layer {
@@ -109,7 +113,7 @@
   display: flex;
   align-items: center;
   width: 320px;
-  max-width: 60vw;
+  max-width: 100%;
   padding: 16px 24px;
   background: rgba(10, 12, 16, 0.82);
   color: var(--op-parchment);
@@ -118,13 +122,35 @@
   letter-spacing: 0.03em;
   border-left: 4px solid var(--op-gold);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-  transition: width 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  transition: width 0.2s var(--ease-out), background 0.2s ease, box-shadow 0.2s ease,
+    transform 0.12s var(--ease-out);
 }
 
-.hero-flag:hover {
-  width: 360px;
+.hero-flag:active {
   background: rgba(10, 12, 16, 0.94);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  transform: scale(0.98);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hero-flag:hover {
+    width: 360px;
+    background: rgba(10, 12, 16, 0.94);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-flags {
+    gap: 14px;
+    width: min(320px, 100%);
+  }
+  .hero-flag {
+    width: 100%;
+    padding: 14px 20px;
+  }
 }
 
 .log-pose-needle {
@@ -177,6 +203,7 @@
   display: flex;
   gap: 18px;
   overflow-x: auto;
+  overscroll-behavior-x: contain;
   padding: 8px 4px 24px;
   max-width: 1200px;
   margin: 0 auto;
@@ -222,13 +249,19 @@
   z-index: 2;
 }
 
-.saga-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--op-gold);
+.saga-card:active {
+  transform: scale(0.98);
 }
 
-.saga-card:hover .saga-card-bg {
-  transform: scale(1.22);
+@media (hover: hover) and (pointer: fine) {
+  .saga-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--op-gold);
+  }
+
+  .saga-card:hover .saga-card-bg {
+    transform: scale(1.22);
+  }
 }
 
 .saga-number {
@@ -264,6 +297,9 @@
   font-size: 0.9rem;
   letter-spacing: 0.03em;
   text-decoration: none;
+  /* comfortable tap target without changing how the link looks */
+  padding: 8px 0;
+  margin: -8px 0;
   cursor: pointer;
 }
 
@@ -274,7 +310,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: calc(20px + var(--safe-top)) calc(20px + var(--safe-right)) calc(20px + var(--safe-bottom))
+    calc(20px + var(--safe-left));
+  overscroll-behavior: contain;
   z-index: 1000;
 }
 
@@ -290,10 +328,14 @@
   font-family: var(--font-body);
   font-weight: 600;
   font-size: 0.9rem;
+  line-height: 1.55;
+  max-height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .credits-modal-title {
-  margin: 0 0 12px;
+  margin: 0 40px 12px 0;
   font-family: var(--font-display);
   font-weight: 400;
   font-size: 1.8rem;
@@ -310,16 +352,16 @@
   text-decoration: underline;
 }
 
-.credits-modal a:hover {
-  color: var(--op-parchment);
+.credits-modal a {
+  overflow-wrap: anywhere;
 }
 
 .credits-modal-close {
   position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 32px;
-  height: 32px;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,7 +374,18 @@
   cursor: pointer;
 }
 
-.credits-modal-close:hover {
+.credits-modal-close:active {
   color: var(--op-parchment);
-  background: rgba(244, 232, 201, 0.1);
+  background: rgba(244, 232, 201, 0.14);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .credits-modal a:hover {
+    color: var(--op-parchment);
+  }
+
+  .credits-modal-close:hover {
+    color: var(--op-parchment);
+    background: rgba(244, 232, 201, 0.1);
+  }
 }

@@ -446,8 +446,10 @@ export default function Chapters() {
                 type="button"
                 className="mark-progress-button"
                 onClick={openMarkModal}
+                aria-label="Marcar vist / no vist"
+                title="Marcar vist / no vist"
               >
-                <ListCheckIcon /> Marcar vist / no vist
+                <ListCheckIcon /> <span className="mark-progress-label">Marcar vist / no vist</span>
               </button>
 
               <label className="search-field compact">
@@ -457,8 +459,12 @@ export default function Chapters() {
                 </svg>
                 <input
                   className="search-input"
-                  type="text"
+                  type="search"
+                  inputMode="search"
+                  enterKeyHint="search"
+                  autoComplete="off"
                   placeholder="Cerca episodi o saga..."
+                  aria-label="Cerca episodi o saga"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                 />
@@ -470,11 +476,13 @@ export default function Chapters() {
                 onClick={() => setShowSeasonModal(true)}
                 disabled={!!query || showFavsOnly}
               >
+                <span className="season-trigger-label">
                 {activeSeason
                   ? `Saga ${String(activeSeason).padStart(2, "0")} · ${
                       seasons.find((s) => s.season_number === activeSeason)?.season_name ?? ""
                     }`
                   : "Selecciona una saga"}
+                </span>
               </button>
             </div>
           </div>
