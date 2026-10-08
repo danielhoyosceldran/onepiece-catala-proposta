@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header className={"navbar" + (isLanding ? " navbar-transparent" : "")}>
       <NavLink to="/" className="navbar-brand">
-        <img src="/brand/one_piece_catala_logo.png" alt="One Piece Cat" className="navbar-logo" />
+        <img src="/brand/one_piece_catala_logo.webp" alt="One Piece Cat" className="navbar-logo" width="44" height="44" />
       </NavLink>
       <nav className="navbar-links">
         <NavLink to="/" end className={({ isActive }) => "navbar-link" + (isActive ? " active" : "")}>

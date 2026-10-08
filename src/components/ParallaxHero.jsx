@@ -86,17 +86,17 @@ export default function ParallaxHero() {
   return (
     <section className="hero">
       <div className="hero-layer hero-sky" ref={skyRef}>
-        <img src="/parallax/sky.svg" alt="" />
+        <img src="/parallax/sky.svg" alt="" fetchpriority="high" decoding="async" />
       </div>
       <div className="hero-layer hero-clouds" ref={cloudsRef}>
-        <img src="/parallax/clouds.svg" alt="" />
+        <img src="/parallax/clouds.svg" alt="" decoding="async" />
       </div>
       <div className="hero-layer hero-ship" ref={shipRef}>
-        <img src="/parallax/going_marry.svg" alt="El Going Merry navegant per alta mar" />
+        <img src="/parallax/going_marry.svg" alt="El Going Merry navegant per alta mar" fetchpriority="high" decoding="async" />
       </div>
       <div className="hero-layer hero-birds" ref={birdsRef}>
         <div className="hero-birds-drift">
-          <img src="/parallax/birds.svg" alt="" />
+          <img src="/parallax/birds.svg" alt="" decoding="async" />
         </div>
       </div>
       <div className="hero-fade" />

@@ -32,7 +32,7 @@ amagar aquesta atribució en cap refactor de layout.
 Tema: archivo pirata/anime, con mapas de tesoro y carteles de "se busca" como
 firma visual. El hero de la Landing usa 4 ilustraciones reales del Going Merry
 proporcionadas por el propietario del proyecto (`web/public/parallax/`). El
-navbar usa el logo real del propietario (`web/public/brand/one_piece_catala_logo.png`).
+navbar usa el logo real del propietario (`web/public/brand/one_piece_catala_logo.webp`).
 Uso de todo este material es responsabilidad del propietario, no de este
 equipo de estilo. El resto de la ambientación (tarjetas de saga y episodio)
 sigue siendo SVG/CSS propio, sin arte con copyright de terceros.
@@ -180,7 +180,7 @@ lee mal en texto largo).
 
 ### Navbar (`src/components/Navbar.jsx` + `styles/navbar.css`)
 Fijo arriba, fondo degradado que se disuelve hacia abajo (para no tapar el
-hero), z-index 100. Marca: `public/brand/one_piece_catala_logo.png` (logo
+hero), z-index 100. Marca: `public/brand/one_piece_catala_logo.webp` (logo
 único, ya incluye "One Piece Cat" en el propio asset — no hay `<span>` de
 sufijo añadido en el navbar). Dos enlaces: Inici / Capítols. No añadir más
 de 4-5 enlaces sin rediseñar a menú hamburguesa en mobile.
