@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
+const ICON = { viewBox: "0 0 24 24", className: "hero-flag-icon", "aria-hidden": "true" };
+
 const LAYERS = [
   { ref: "sky", scroll: 0.04, mouse: 18 },
   { ref: "clouds", scroll: 0.12, mouse: 14 },
@@ -14,6 +16,21 @@ export default function ParallaxHero() {
   const shipRef = useRef(null);
   const birdsRef = useRef(null);
   const [showCredits, setShowCredits] = useState(false);
+  const creditsBtnRef = useRef(null);
+  const closeBtnRef = useRef(null);
+
+  useEffect(() => {
+    if (!showCredits) return;
+    closeBtnRef.current?.focus();
+    const onKey = (e) => {
+      if (e.key === "Escape") setShowCredits(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      creditsBtnRef.current?.focus();
+    };
+  }, [showCredits]);
 
   useEffect(() => {
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -84,9 +101,14 @@ export default function ParallaxHero() {
       </div>
       <div className="hero-fade" />
 
-      <nav className="hero-flags">
-        <Link to="/capitols" className="hero-flag">
+      <h1 className="sr-only">One Piece en català</h1>
+
+      <nav className="hero-flags" aria-label="Enllaços principals">
+        <Link to="/capitols" className="hero-flag hero-flag-primary">
           Veure One Piece en català
+          <svg {...ICON}>
+            <path d="M7 4.5v15l12-7.5z" />
+          </svg>
         </Link>
         <a
           href="https://t.me/onepiececatala"
@@ -95,6 +117,9 @@ export default function ParallaxHero() {
           className="hero-flag"
         >
           Grup de Telegram
+          <svg {...ICON}>
+            <path d="M7 17 17 7M9 7h8v8" />
+          </svg>
         </a>
         <a
           href="https://xarxacatala.cat"
@@ -103,24 +128,41 @@ export default function ParallaxHero() {
           className="hero-flag"
         >
           Xarxa Catalana
+          <svg {...ICON}>
+            <path d="M7 17 17 7M9 7h8v8" />
+          </svg>
         </a>
-        <button type="button" className="hero-credits-link" onClick={() => setShowCredits(true)}>
+        <button
+          type="button"
+          className="hero-credits-link"
+          ref={creditsBtnRef}
+          onClick={() => setShowCredits(true)}
+        >
           Crèdits
         </button>
       </nav>
 
       {showCredits && (
         <div className="credits-modal-overlay" onClick={() => setShowCredits(false)}>
-          <div className="credits-modal" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="credits-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="credits-title"
+            onClick={(e) => e.stopPropagation()}
+          >
             <button
               type="button"
               className="credits-modal-close"
               aria-label="Tancar"
+              ref={closeBtnRef}
               onClick={() => setShowCredits(false)}
             >
-              ×
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 6l12 12M18 6 6 18" />
+              </svg>
             </button>
-            <h3 className="credits-modal-title">Crèdits</h3>
+            <h2 id="credits-title" className="credits-modal-title">Crèdits</h2>
             <p>One Piece Cat — un arxiu de fans, sense finalitats comercials.</p>
             <p>
               Vídeos servits per{" "}

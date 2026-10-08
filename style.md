@@ -113,7 +113,14 @@ lee mal en texto largo).
   català" (`/capitols`), grupo de Telegram, Xarxa Catalana y un botón
   "Crèdits" que abre un modal (`.credits-modal-overlay`) con el disclaimer
   de fan-archive y la atribución a `onepiece.xarxacatala.cat`. No hay `h1`
-  ni CTA de texto separados: los "flags" son el único bloque de contenido.
+  ni CTA visible separados (hay un `h1` solo para lectores de pantalla): los
+  "flags" son el único bloque de contenido. "Veure One Piece en català" es el
+  CTA primario (placa dorada, icono play); Telegram y Xarxa Catalana son
+  secundarios (placa navy con contorno de tinta + flecha externa); "Crèdits"
+  es una píldora discreta. En ≤640px las capas barco/nubes/pájaros se
+  amplían con `--scene-scale` (1.5) ancladas abajo a la derecha para que el
+  Going Merry siga siendo legible en vertical. El modal de Crèdits es un
+  `role="dialog"` con foco inicial en cerrar, Esc para cerrar y retorno de foco.
 - **Sagas**: el carrusel de tarjetas por temporada (`groupBySeason` +
   `getSeasonImage`, enlace a `/capitols?season=N`) existe en el código de
   `Landing.jsx` pero está comentado (`{/* ... */}`) — no se renderiza
